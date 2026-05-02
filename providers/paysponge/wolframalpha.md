@@ -12,8 +12,6 @@ openapi:
 Wolfram|Alpha computational knowledge endpoints exposed through PaySponge with
 x402 payments.
 
-Full OpenAPI spec: [openapi.json](https://wolframalpha.x402.paysponge.com/openapi.json)
-
 The published spec currently exposes 3 paid `GET` routes: `/v1/result` for a
 short answer, `/v1/simple` for a simple image result, and `/v2/query` for a
 full Wolfram|Alpha query response. These routes are suited to math, science,

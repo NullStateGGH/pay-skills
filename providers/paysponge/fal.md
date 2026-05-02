@@ -11,8 +11,6 @@ openapi:
 
 fal.ai generation endpoints exposed through PaySponge with x402 payments.
 
-Full OpenAPI spec: [openapi.json](https://fal.x402.paysponge.com/openapi.json)
-
 This provider covers paid image and video generation across Fast SDXL, FLUX
 Schnell, FLUX Dev, FLUX Pro v1.1, FLUX Pro v1.1 Ultra, Stable Diffusion 3.5
 Large, Recraft v3, Stable Video, and MiniMax Video-01. The same listing also

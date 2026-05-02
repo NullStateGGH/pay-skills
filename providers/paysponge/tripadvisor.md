@@ -12,8 +12,6 @@ openapi:
 Tripadvisor Content API endpoints exposed through PaySponge with x402
 payments.
 
-Full OpenAPI spec: [openapi.json](https://tripadvisor.x402.paysponge.com/openapi.json)
-
 This provider covers location search, nearby search, and per-location content
 retrieval for details, reviews, and photos. It is suited to worldwide travel
 and local-discovery workflows involving hotels, restaurants, and attractions.

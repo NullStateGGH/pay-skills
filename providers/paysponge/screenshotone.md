@@ -12,8 +12,6 @@ openapi:
 ScreenshotOne browser-rendered capture endpoints exposed through PaySponge
 with x402 payments.
 
-Full OpenAPI spec: [openapi.json](https://screenshotone.x402.paysponge.com/openapi.json)
-
 The published spec currently exposes `/take` as both `GET` and `POST` plus an
 `/animate` `GET` route. The service is intended for website screenshots and
 related rendered outputs including PNG, JPEG, WebP, PDFs, rendered HTML, and

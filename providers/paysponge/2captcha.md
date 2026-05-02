@@ -12,9 +12,6 @@ openapi:
 2Captcha CAPTCHA-solving endpoints exposed through PaySponge with x402
 payments.
 
-Full OpenAPI spec:
-[openapi.json](https://2captcha.x402.paysponge.com/openapi.json)
-
 The published OpenAPI document advertises task creation, result polling, and
 correct or incorrect solve reporting for reCAPTCHA v2/v3, hCaptcha, Cloudflare
 Turnstile, FunCaptcha, GeeTest, image captchas, and related challenge types.
