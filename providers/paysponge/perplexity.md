@@ -12,8 +12,6 @@ openapi:
 Perplexity search and response API exposed through PaySponge with x402
 payments.
 
-Full OpenAPI spec: [openapi.json](https://pplx.x402.paysponge.com/openapi.json)
-
 The published spec includes raw web search at `/search`, OpenAI-style response
 generation through `POST /v1/agent`, model discovery at `GET /v1/models`,
 async Sonar submit/status routes, and a separate `POST /v1/sonar`

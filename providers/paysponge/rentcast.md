@@ -12,8 +12,6 @@ openapi:
 RentCast real-estate data endpoints exposed through PaySponge with x402
 payments.
 
-Full OpenAPI spec: [openapi.json](https://rentcast.x402.paysponge.com/openapi.json)
-
 This provider covers US property records, sale and rental listings, ZIP-level
 market statistics, automated value estimates, and long-term rent estimates.
 Search routes support address lookup, city and ZIP filters, latitude/longitude
