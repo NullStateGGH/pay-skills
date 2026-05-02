@@ -3,10 +3,10 @@ category: ai_ml
 description: "Run moderation, verification, and risk checks with Alibaba Cloud Image Audit, including image Content Moderation and text Content Moderation."
 use_case: "Use for image Content Moderation, text Content Moderation, and related moderation, compliance, identity verification, fraud screening, and risk analysis."
 openapi:
-  url: https://production-pay-alibaba-imageaudit-<RAM>.us-central1.run.app/openapi.json
+  url: https://imageaudit.alibaba.gateway-402.com/openapi.json
 name: imageaudit
-sandbox_service_url: https://sandbox-pay-alibaba-imageaudit-<RAM>.us-central1.run.app
-service_url: https://production-pay-alibaba-imageaudit-<RAM>.us-central1.run.app
+sandbox_service_url: https://imageaudit.alibaba-sandbox.gateway-402.com
+service_url: https://imageaudit.alibaba.gateway-402.com
 title: Alibaba Cloud Image Audit
 version: "2019-12-30"
 

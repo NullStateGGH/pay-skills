@@ -3,10 +3,10 @@ category: ai_ml
 description: "Extract text and structured content from images with Qwen OCR through Alibaba Cloud Model Studio's OpenAI-compatible chat completions API."
 use_case: "Use for receipt extraction, invoice parsing, document OCR, table extraction, and multilingual image text recognition."
 openapi:
-  url: https://production-pay-alibaba-ocr-<RAM>.us-central1.run.app/openapi.json
+  url: https://ocr.alibaba.gateway-402.com/openapi.json
 name: ocr
-sandbox_service_url: https://sandbox-pay-alibaba-ocr-<RAM>.us-central1.run.app
-service_url: https://production-pay-alibaba-ocr-<RAM>.us-central1.run.app
+sandbox_service_url: https://ocr.alibaba-sandbox.gateway-402.com
+service_url: https://ocr.alibaba.gateway-402.com
 title: Alibaba Cloud Model Studio OCR
 version: v1
 

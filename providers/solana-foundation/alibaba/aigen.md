@@ -3,10 +3,10 @@ category: ai_ml
 description: "Run image and video analysis or generation with Alibaba Cloud AI Generation, including cosplay - Anime Character Generation, interactive Full-image Segmentation, and interactive Scribble-based Segmentation."
 use_case: "Use for cosplay - Anime Character Generation, interactive Full-image Segmentation, interactive Scribble-based Segmentation, and related image or video generation, enhancement, detection, segmentation, and visual analysis."
 openapi:
-  url: https://production-pay-alibaba-aigen-<RAM>.us-central1.run.app/openapi.json
+  url: https://aigen.alibaba.gateway-402.com/openapi.json
 name: aigen
-sandbox_service_url: https://sandbox-pay-alibaba-aigen-<RAM>.us-central1.run.app
-service_url: https://production-pay-alibaba-aigen-<RAM>.us-central1.run.app
+sandbox_service_url: https://aigen.alibaba-sandbox.gateway-402.com
+service_url: https://aigen.alibaba.gateway-402.com
 title: Alibaba Cloud AI Generation
 version: "2024-01-11"
 

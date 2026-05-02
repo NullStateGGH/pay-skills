@@ -3,10 +3,10 @@ category: ai_ml
 description: "Extract text and structured document data with Alibaba Cloud EduTutor, including exam Paper Question Segmentation, for OCR workflows."
 use_case: "Use for exam Paper Question Segmentation, and related document OCR, structured extraction, and image-to-text parsing."
 openapi:
-  url: https://production-pay-alibaba-edututor-<RAM>.us-central1.run.app/openapi.json
+  url: https://edututor.alibaba.gateway-402.com/openapi.json
 name: edututor
-sandbox_service_url: https://sandbox-pay-alibaba-edututor-<RAM>.us-central1.run.app
-service_url: https://production-pay-alibaba-edututor-<RAM>.us-central1.run.app
+sandbox_service_url: https://edututor.alibaba-sandbox.gateway-402.com
+service_url: https://edututor.alibaba.gateway-402.com
 title: Alibaba Cloud EduTutor
 version: "2025-07-07"
 

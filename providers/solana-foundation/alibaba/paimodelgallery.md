@@ -3,10 +3,10 @@ category: ai_ml
 description: "Search and retrieve data with Alibaba Cloud PAI Model Gallery, including retrieve the ModelGallery model list, for search and discovery workflows."
 use_case: "Use for retrieve the ModelGallery model list, and related catalog discovery, skill lookup, and search routing."
 openapi:
-  url: https://production-pay-alibaba-paimodelgallery-<RAM>.us-central1.run.app/openapi.json
+  url: https://paimodelgallery.alibaba.gateway-402.com/openapi.json
 name: paimodelgallery
-sandbox_service_url: https://sandbox-pay-alibaba-paimodelgallery-<RAM>.us-central1.run.app
-service_url: https://production-pay-alibaba-paimodelgallery-<RAM>.us-central1.run.app
+sandbox_service_url: https://paimodelgallery.alibaba-sandbox.gateway-402.com
+service_url: https://paimodelgallery.alibaba.gateway-402.com
 title: Alibaba Cloud PAI Model Gallery
 version: "2025-06-30"
 

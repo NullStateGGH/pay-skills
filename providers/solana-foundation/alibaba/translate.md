@@ -3,10 +3,10 @@ category: ai_ml
 description: "Translate text with Qwen-MT through Alibaba Cloud Model Studio's OpenAI-compatible chat completions API."
 use_case: "Use for single-turn machine translation, localization, multilingual content generation, and cross-language messaging."
 openapi:
-  url: https://production-pay-alibaba-translate-<RAM>.us-central1.run.app/openapi.json
+  url: https://translate.alibaba.gateway-402.com/openapi.json
 name: translate
-sandbox_service_url: https://sandbox-pay-alibaba-translate-<RAM>.us-central1.run.app
-service_url: https://production-pay-alibaba-translate-<RAM>.us-central1.run.app
+sandbox_service_url: https://translate.alibaba-sandbox.gateway-402.com
+service_url: https://translate.alibaba.gateway-402.com
 title: Alibaba Cloud Model Studio Translation
 version: v1
 

@@ -3,10 +3,10 @@ category: ai_ml
 description: "Transcribe audio files with Qwen ASR through Alibaba Cloud Model Studio's asynchronous speech recognition API."
 use_case: "Use for audio transcription, meeting notes, subtitle generation, interview transcription, voice note processing, and multilingual speech-to-text."
 openapi:
-  url: https://production-pay-alibaba-speech-<RAM>.us-central1.run.app/openapi.json
+  url: https://speech.alibaba.gateway-402.com/openapi.json
 name: speech
-sandbox_service_url: https://sandbox-pay-alibaba-speech-<RAM>.us-central1.run.app
-service_url: https://production-pay-alibaba-speech-<RAM>.us-central1.run.app
+sandbox_service_url: https://speech.alibaba-sandbox.gateway-402.com
+service_url: https://speech.alibaba.gateway-402.com
 title: Alibaba Cloud Model Studio Speech Recognition
 version: v1
 

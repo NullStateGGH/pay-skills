@@ -3,10 +3,10 @@ category: ai_ml
 description: "Run image and video analysis or generation with Alibaba Cloud Image Segmentation, including sky Replacement, facial Feature Segmentation, and fine-Grained Mask Segmentation."
 use_case: "Use for sky Replacement, facial Feature Segmentation, fine-Grained Mask Segmentation, and related image or video generation, enhancement, detection, segmentation, and visual analysis."
 openapi:
-  url: https://production-pay-alibaba-imageseg-<RAM>.us-central1.run.app/openapi.json
+  url: https://imageseg.alibaba.gateway-402.com/openapi.json
 name: imageseg
-sandbox_service_url: https://sandbox-pay-alibaba-imageseg-<RAM>.us-central1.run.app
-service_url: https://production-pay-alibaba-imageseg-<RAM>.us-central1.run.app
+sandbox_service_url: https://imageseg.alibaba-sandbox.gateway-402.com
+service_url: https://imageseg.alibaba.gateway-402.com
 title: Alibaba Cloud Image Segmentation
 version: "2019-12-30"
 

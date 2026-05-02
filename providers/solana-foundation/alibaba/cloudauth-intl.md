@@ -3,10 +3,10 @@ category: ai_ml
 description: "Run moderation, verification, and risk checks with Alibaba Cloud Cloudauth International, including address Similarity Comparison, address Verification, and address Verification V2."
 use_case: "Use for address Similarity Comparison, address Verification, address Verification V2, and related moderation, compliance, identity verification, fraud screening, and risk analysis."
 openapi:
-  url: https://production-pay-alibaba-cloudauth-intl-<RAM>.us-central1.run.app/openapi.json
+  url: https://cloudauth-intl.alibaba.gateway-402.com/openapi.json
 name: cloudauth-intl
-sandbox_service_url: https://sandbox-pay-alibaba-cloudauth-intl-<RAM>.us-central1.run.app
-service_url: https://production-pay-alibaba-cloudauth-intl-<RAM>.us-central1.run.app
+sandbox_service_url: https://cloudauth-intl.alibaba-sandbox.gateway-402.com
+service_url: https://cloudauth-intl.alibaba.gateway-402.com
 title: Alibaba Cloud Cloudauth International
 version: "2022-08-09"
 

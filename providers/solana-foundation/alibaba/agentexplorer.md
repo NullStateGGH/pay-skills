@@ -3,10 +3,10 @@ category: search
 description: "Search and retrieve data with Alibaba Cloud Agent Skills Explorer, including retrieve the content of the Agent Skill file, obtain information about all Agent Skills categories, and search Alibaba Cloud Agent Skills, for search and discovery workflows."
 use_case: "Use for retrieve the content of the Agent Skill file, obtain information about all Agent Skills categories, search Alibaba Cloud Agent Skills, and related catalog discovery, skill lookup, and search routing."
 openapi:
-  url: https://production-pay-alibaba-agentexplorer-<RAM>.us-central1.run.app/openapi.json
+  url: https://agentexplorer.alibaba.gateway-402.com/openapi.json
 name: agentexplorer
-sandbox_service_url: https://sandbox-pay-alibaba-agentexplorer-<RAM>.us-central1.run.app
-service_url: https://production-pay-alibaba-agentexplorer-<RAM>.us-central1.run.app
+sandbox_service_url: https://agentexplorer.alibaba-sandbox.gateway-402.com
+service_url: https://agentexplorer.alibaba.gateway-402.com
 title: Alibaba Cloud Agent Skills Explorer
 version: "2026-03-17"
 

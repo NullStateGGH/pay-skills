@@ -3,10 +3,10 @@ category: ai_ml
 description: "Run moderation, verification, and risk checks with Alibaba Cloud Cloudauth, including aIGC Image Generation Detection, verification of Two, and three plus additional screening and verification operations."
 use_case: "Use for aIGC Image Generation Detection, verification of Two, three, and Four Elements of Bank Card, and related moderation, compliance, identity verification, fraud screening, and risk analysis."
 openapi:
-  url: https://production-pay-alibaba-cloudauth-<RAM>.us-central1.run.app/openapi.json
+  url: https://cloudauth.alibaba.gateway-402.com/openapi.json
 name: cloudauth
-sandbox_service_url: https://sandbox-pay-alibaba-cloudauth-<RAM>.us-central1.run.app
-service_url: https://production-pay-alibaba-cloudauth-<RAM>.us-central1.run.app
+sandbox_service_url: https://cloudauth.alibaba-sandbox.gateway-402.com
+service_url: https://cloudauth.alibaba.gateway-402.com
 title: Alibaba Cloud Cloudauth
 version: "2019-03-07"
 

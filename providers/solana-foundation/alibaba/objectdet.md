@@ -3,10 +3,10 @@ category: ai_ml
 description: "Run image and video analysis or generation with Alibaba Cloud Object Detection, including iPC Image Object Detection, cat and Mouse Recognition, and entity Detection."
 use_case: "Use for iPC Image Object Detection, cat and Mouse Recognition, entity Detection, and related image or video generation, enhancement, detection, segmentation, and visual analysis."
 openapi:
-  url: https://production-pay-alibaba-objectdet-<RAM>.us-central1.run.app/openapi.json
+  url: https://objectdet.alibaba.gateway-402.com/openapi.json
 name: objectdet
-sandbox_service_url: https://sandbox-pay-alibaba-objectdet-<RAM>.us-central1.run.app
-service_url: https://production-pay-alibaba-objectdet-<RAM>.us-central1.run.app
+sandbox_service_url: https://objectdet.alibaba-sandbox.gateway-402.com
+service_url: https://objectdet.alibaba.gateway-402.com
 title: Alibaba Cloud Object Detection
 version: "2019-12-30"
 

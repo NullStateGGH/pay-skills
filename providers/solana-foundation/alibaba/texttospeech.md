@@ -3,10 +3,10 @@ category: ai_ml
 description: "Synthesize speech with Qwen TTS through Alibaba Cloud Model Studio's multimodal generation API."
 use_case: "Use for voiceovers, accessibility audio, narration, dubbing, spoken product copy, and synthetic voice generation."
 openapi:
-  url: https://production-pay-alibaba-texttospeech-<RAM>.us-central1.run.app/openapi.json
+  url: https://texttospeech.alibaba.gateway-402.com/openapi.json
 name: texttospeech
-sandbox_service_url: https://sandbox-pay-alibaba-texttospeech-<RAM>.us-central1.run.app
-service_url: https://production-pay-alibaba-texttospeech-<RAM>.us-central1.run.app
+sandbox_service_url: https://texttospeech.alibaba-sandbox.gateway-402.com
+service_url: https://texttospeech.alibaba.gateway-402.com
 title: Alibaba Cloud Model Studio Text-to-Speech
 version: v1
 

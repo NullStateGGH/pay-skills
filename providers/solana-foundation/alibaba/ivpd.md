@@ -3,10 +3,10 @@ category: ai_ml
 description: "Run image and video analysis or generation with Alibaba Cloud IVPD, including resize Image, element detection, and style Transfer."
 use_case: "Use for resize Image, element detection, style Transfer, and related image or video generation, enhancement, detection, segmentation, and visual analysis."
 openapi:
-  url: https://production-pay-alibaba-ivpd-<RAM>.us-central1.run.app/openapi.json
+  url: https://ivpd.alibaba.gateway-402.com/openapi.json
 name: ivpd
-sandbox_service_url: https://sandbox-pay-alibaba-ivpd-<RAM>.us-central1.run.app
-service_url: https://production-pay-alibaba-ivpd-<RAM>.us-central1.run.app
+sandbox_service_url: https://ivpd.alibaba-sandbox.gateway-402.com
+service_url: https://ivpd.alibaba.gateway-402.com
 title: Alibaba Cloud IVPD
 version: "2019-06-25"
 

@@ -3,10 +3,10 @@ category: ai_ml
 description: "Translate and localize content with Alibaba Cloud AnyTrans, including text Translation, batch Text Translation, and batch Web Page Translation, for multilingual workflows."
 use_case: "Use for text Translation, batch Text Translation, batch Web Page Translation, and related translation, localization, and multilingual communication."
 openapi:
-  url: https://production-pay-alibaba-anytrans-<RAM>.us-central1.run.app/openapi.json
+  url: https://anytrans.alibaba.gateway-402.com/openapi.json
 name: anytrans
-sandbox_service_url: https://sandbox-pay-alibaba-anytrans-<RAM>.us-central1.run.app
-service_url: https://production-pay-alibaba-anytrans-<RAM>.us-central1.run.app
+sandbox_service_url: https://anytrans.alibaba-sandbox.gateway-402.com
+service_url: https://anytrans.alibaba.gateway-402.com
 title: Alibaba Cloud AnyTrans
 version: "2025-07-07"
 

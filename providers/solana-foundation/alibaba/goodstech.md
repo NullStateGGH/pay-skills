@@ -3,10 +3,10 @@ category: ai_ml
 description: "Run image and video analysis or generation with Alibaba Cloud Goods Tech, including product Categorization."
 use_case: "Use for product Categorization, and related image or video generation, enhancement, detection, segmentation, and visual analysis."
 openapi:
-  url: https://production-pay-alibaba-goodstech-<RAM>.us-central1.run.app/openapi.json
+  url: https://goodstech.alibaba.gateway-402.com/openapi.json
 name: goodstech
-sandbox_service_url: https://sandbox-pay-alibaba-goodstech-<RAM>.us-central1.run.app
-service_url: https://production-pay-alibaba-goodstech-<RAM>.us-central1.run.app
+sandbox_service_url: https://goodstech.alibaba-sandbox.gateway-402.com
+service_url: https://goodstech.alibaba.gateway-402.com
 title: Alibaba Cloud Goods Tech
 version: "2019-12-30"
 

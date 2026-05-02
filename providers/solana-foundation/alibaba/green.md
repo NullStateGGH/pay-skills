@@ -3,10 +3,10 @@ category: ai_ml
 description: "Run moderation, verification, and risk checks with Alibaba Cloud Green, including imageBatchModeration, imageModeration, and multiModalAgent."
 use_case: "Use for imageBatchModeration, imageModeration, multiModalAgent, and related moderation, compliance, identity verification, fraud screening, and risk analysis."
 openapi:
-  url: https://production-pay-alibaba-green-<RAM>.us-central1.run.app/openapi.json
+  url: https://green.alibaba.gateway-402.com/openapi.json
 name: green
-sandbox_service_url: https://sandbox-pay-alibaba-green-<RAM>.us-central1.run.app
-service_url: https://production-pay-alibaba-green-<RAM>.us-central1.run.app
+sandbox_service_url: https://green.alibaba-sandbox.gateway-402.com
+service_url: https://green.alibaba.gateway-402.com
 title: Alibaba Cloud Green
 version: "2022-03-02"
 

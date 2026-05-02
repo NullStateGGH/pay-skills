@@ -3,10 +3,10 @@ category: ai_ml
 description: "Process speech and audio with Alibaba Cloud Intelligent Speech Interaction, including short-form voice command recognition, conversational speech input, and voice search, for transcription and voice workflows."
 use_case: "Use for short-form voice command recognition, conversational speech input, voice search, accessibility audio, and low-latency text-to-speech responses."
 openapi:
-  url: https://production-pay-alibaba-intelligentspeechinteraction-<RAM>.us-central1.run.app/openapi.json
+  url: https://intelligentspeechinteraction.alibaba.gateway-402.com/openapi.json
 name: intelligentspeechinteraction
-sandbox_service_url: https://sandbox-pay-alibaba-intelligentspeechinteraction-<RAM>.us-central1.run.app
-service_url: https://production-pay-alibaba-intelligentspeechinteraction-<RAM>.us-central1.run.app
+sandbox_service_url: https://intelligentspeechinteraction.alibaba-sandbox.gateway-402.com
+service_url: https://intelligentspeechinteraction.alibaba.gateway-402.com
 title: Alibaba Cloud Intelligent Speech Interaction
 version: v1
 

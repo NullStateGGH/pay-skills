@@ -3,10 +3,10 @@ category: search
 description: "Search and retrieve data with Alibaba Cloud Information Query Service, including enhanced Search, general Search, and globalSearch - International Version (To Be Published), for search and discovery workflows."
 use_case: "Use for enhanced Search, general Search, globalSearch - International Version (To Be Published), and related catalog discovery, skill lookup, and search routing."
 openapi:
-  url: https://production-pay-alibaba-iqs-<RAM>.us-central1.run.app/openapi.json
+  url: https://iqs.alibaba.gateway-402.com/openapi.json
 name: iqs
-sandbox_service_url: https://sandbox-pay-alibaba-iqs-<RAM>.us-central1.run.app
-service_url: https://production-pay-alibaba-iqs-<RAM>.us-central1.run.app
+sandbox_service_url: https://iqs.alibaba-sandbox.gateway-402.com
+service_url: https://iqs.alibaba.gateway-402.com
 title: Alibaba Cloud Information Query Service
 version: "2024-11-11"
 

@@ -3,10 +3,10 @@ category: ai_ml
 description: "Run moderation, verification, and risk checks with Alibaba Cloud SAF, including multi-Scenario Risk Identification and Detection, decision Engine for Malaysian Cluster, and decision Engine Singapore Cluster."
 use_case: "Use for multi-Scenario Risk Identification and Detection, decision Engine for Malaysian Cluster, decision Engine Singapore Cluster, and related moderation, compliance, identity verification, fraud screening, and risk analysis."
 openapi:
-  url: https://production-pay-alibaba-saf-<RAM>.us-central1.run.app/openapi.json
+  url: https://saf.alibaba.gateway-402.com/openapi.json
 name: saf
-sandbox_service_url: https://sandbox-pay-alibaba-saf-<RAM>.us-central1.run.app
-service_url: https://production-pay-alibaba-saf-<RAM>.us-central1.run.app
+sandbox_service_url: https://saf.alibaba-sandbox.gateway-402.com
+service_url: https://saf.alibaba.gateway-402.com
 title: Alibaba Cloud SAF
 version: "2019-05-21"
 

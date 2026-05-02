@@ -3,10 +3,10 @@ category: ai_ml
 description: "Run moderation, verification, and risk checks with Alibaba Cloud CAPTCHA, including intelligent Verification Code Authentication."
 use_case: "Use for intelligent Verification Code Authentication, and related moderation, compliance, identity verification, fraud screening, and risk analysis."
 openapi:
-  url: https://production-pay-alibaba-captcha-<RAM>.us-central1.run.app/openapi.json
+  url: https://captcha.alibaba.gateway-402.com/openapi.json
 name: captcha
-sandbox_service_url: https://sandbox-pay-alibaba-captcha-<RAM>.us-central1.run.app
-service_url: https://production-pay-alibaba-captcha-<RAM>.us-central1.run.app
+sandbox_service_url: https://captcha.alibaba-sandbox.gateway-402.com
+service_url: https://captcha.alibaba.gateway-402.com
 title: Alibaba Cloud CAPTCHA
 version: "2023-03-05"
 
