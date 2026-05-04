@@ -86,23 +86,9 @@ Paid endpoints must:
 
 CI probes every endpoint and emits `::warning::` / `::error::` annotations inline on PRs. Endpoints that don't return a valid Solana 402 challenge block the merge. Indeterminate statuses (auth-required, SIWX, body-required) neither warn nor error — they pass through.
 
-## Aggregators
-
-Other registries we list for visibility. Add `aggregators/<name>.md`:
-
-```markdown
----
-name: other-registry
-title: "Other Registry"
-url: https://other-registry.dev
-catalog_url: https://other-registry.dev/skills.json   # optional
-contact: team@other-registry.dev
----
-```
-
 ## How publication works
 
-1. Contributors open PRs adding/editing PAY.md files (and optional sidecars). The `Validate` workflow parses, probes, and emits inline annotations.
+1. Contributors open PRs adding/editing PAY.md files (and optional sidecars). The `Validate providers` workflow parses, probes, and emits inline annotations.
 2. On merge to `main`, the `Build & Publish Skills Index` workflow:
    - Re-runs the Solana-compat gate against this commit's diff (so a bypassed PR can't slip through).
    - Pulls the previous dist from `gs://pay-skills/v1/`.

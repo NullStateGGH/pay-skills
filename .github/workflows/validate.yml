@@ -1,4 +1,4 @@
-name: Validate
+name: Validate providers
 
 on:
   pull_request:
@@ -8,7 +8,8 @@ env:
   PAY_IMAGE: us-central1-docker.pkg.dev/gateway-402/agent-gateway/pay:latest
 
 jobs:
-  validate:
+  probe-and-verdict:
+    name: Probe + Solana verdict
     runs-on: ubuntu-latest
     permissions:
       contents: read
