@@ -34,14 +34,41 @@ jobs:
             $PAY_IMAGE \
             catalog check . --no-probe
 
-      # Solana-compat gate on the diff: warns per gated endpoint that doesn't
-      # accept USDC/USDT on Solana, errors (blocks) when a changed provider
-      # has zero classifiable Solana-compatible endpoints. `--changed-from`
-      # runs `git diff <ref>...HEAD` internally and resolves any changed file
-      # under providers/ (PAY.md, openapi.json, schemas, …) to the PAY.md of
-      # its containing provider. `--format github` emits ::warning:: /
+      # Resolve providers changed in this PR. We do the diff in bash (not
+      # inside the container) so the `pay` runtime image stays slim — no
+      # `git` dependency. For each changed file under `providers/`, walk up
+      # to the nearest ancestor directory holding a `PAY.md`; emit that
+      # `PAY.md`'s relative path. A change to a sidecar like `openapi.json`
+      # therefore correctly triggers a re-probe of its owning provider.
+      - name: Resolve changed providers
+        id: changed
+        run: |
+          ALL=$(git diff --name-only --diff-filter=ACMR origin/${{ github.base_ref }}...HEAD -- 'providers/**')
+          PAY_FILES=""
+          for f in $ALL; do
+            dir="$f"
+            while [ -n "$dir" ] && [ "$dir" != "providers" ] && [ "$dir" != "." ] && [ ! -f "$dir/PAY.md" ]; do
+              dir=$(dirname "$dir")
+            done
+            if [ -f "$dir/PAY.md" ]; then
+              PAY_FILES="$PAY_FILES $dir/PAY.md"
+            fi
+          done
+          UNIQ=$(echo $PAY_FILES | tr ' ' '\n' | sort -u | tr '\n' ' ' | sed 's/[[:space:]]*$//')
+          echo "files=$UNIQ" >> "$GITHUB_OUTPUT"
+          if [ -z "$UNIQ" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "No provider changes in this PR."
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "Changed providers in this PR:"
+            for f in $UNIQ; do echo "  $f"; done
+          fi
+
+      # Solana-compat gate on the diff. `--format github` emits ::warning:: /
       # ::error:: workflow-command lines so failures land inline on the PR.
       - name: Probe + Solana-compat gate (changed providers)
+        if: steps.changed.outputs.skip == 'false'
         run: |
           docker run --rm \
             -u "$(id -u):$(id -g)" \
@@ -49,7 +76,7 @@ jobs:
             -w /repo \
             $PAY_IMAGE \
             catalog check . \
-              --changed-from origin/${{ github.base_ref }} \
+              --files ${{ steps.changed.outputs.files }} \
               --currencies USDC,USDT \
               --probe-timeout 15 \
               --probe-concurrency 5 \
@@ -59,7 +86,7 @@ jobs:
       # a per-PR markdown table for human review. Always runs (`always()`)
       # even if the previous step failed, so reviewers see why.
       - name: Verdict summary
-        if: always()
+        if: always() && steps.changed.outputs.skip == 'false'
         run: |
           docker run --rm \
             -u "$(id -u):$(id -g)" \
@@ -67,7 +94,7 @@ jobs:
             -w /repo \
             $PAY_IMAGE \
             catalog check . \
-              --changed-from origin/${{ github.base_ref }} \
+              --files ${{ steps.changed.outputs.files }} \
               --currencies USDC,USDT \
               --probe-timeout 15 \
               --probe-concurrency 5 \

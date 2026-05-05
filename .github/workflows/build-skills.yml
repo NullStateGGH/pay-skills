@@ -81,10 +81,9 @@ jobs:
           fi
 
       # Re-run the Solana-compat gate against this merge's changes so a
-      # bypassed PR can't silently publish a broken provider.
-      # `--changed-from HEAD~1` performs the same diff + walk-up internally
-      # as the step above, then runs probe + verdict on the resolved
-      # provider set.
+      # bypassed PR can't silently publish a broken provider. The PAY.md
+      # list was already resolved in the previous step; pass it as
+      # `--files` so we don't need git inside the container.
       - name: Solana-compat validation (gate)
         if: steps.changed.outputs.skip == 'false'
         run: |
@@ -94,7 +93,7 @@ jobs:
             -w /repo \
             $PAY_IMAGE \
             catalog check . \
-              --changed-from HEAD~1 \
+              --files ${{ steps.changed.outputs.files }} \
               --currencies USDC,USDT \
               --probe-timeout 15 \
               --probe-concurrency 5 \
