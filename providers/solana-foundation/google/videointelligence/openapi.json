@@ -549,7 +549,8 @@
         },
         "tags": [
           "videos"
-        ]
+        ],
+        "summary": "Performs asynchronous video annotation"
       }
     }
   },

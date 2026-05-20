@@ -531,7 +531,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Legal Consultation"
+        "summary": "Legal Consultation (alibaba farui Run Legal Advice"
       }
     },
     "/{workspaceId}/farui/search/case/fulltext": {
@@ -1007,7 +1007,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Case Retrieve"
+        "summary": "Case Retrieve (alibaba farui Run Search Case Full Text)"
       }
     },
     "/{workspaceId}/farui/search/law/query": {
@@ -1333,7 +1333,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Regulation retrieval"
+        "summary": "Regulation retrieval (alibaba farui Run Search Law Query)"
       }
     },
     "/{workspaceId}/pop/contract/extraction": {
@@ -1536,7 +1536,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Contract Extraction"
+        "summary": "Contract Extraction (alibaba farui Run Contract Extract)"
       }
     }
   },

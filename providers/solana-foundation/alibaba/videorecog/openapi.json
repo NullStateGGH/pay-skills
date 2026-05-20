@@ -91,7 +91,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Shot parsing"
+        "summary": "Shot parsing (alibaba videorecog Detect Video Shot)"
       }
     },
     "/evaluate-video-quality": {
@@ -343,7 +343,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Video Thumbnail"
+        "summary": "Video Thumbnail (alibaba videorecog Generate Video Cover)"
       }
     },
     "/recognize-video-cast-crew-list": {
@@ -702,7 +702,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Video OCR"
+        "summary": "Video OCR (alibaba videorecog Recognize Video Cast Crew List)"
       }
     },
     "/split-video-parts": {
@@ -863,7 +863,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Video splitting"
+        "summary": "Video splitting (alibaba videorecog Split Video Parts)"
       }
     },
     "/understand-video-content": {

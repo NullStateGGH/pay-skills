@@ -99,7 +99,7 @@
     "currentConditions": {
       "methods": {
         "lookup": {
-          "description": "The Current Conditions endpoint provides hourly air quality information in more than 100 countries, up to a 500 x 500 meters resolution. Includes over 70 local indexes and global air quality index and categories.",
+          "description": "The Current Conditions endpoint provides hourly air quality",
           "flatPath": "v1/currentConditions:lookup",
           "httpMethod": "POST",
           "id": "airquality.currentConditions.lookup",
@@ -118,7 +118,7 @@
     "forecast": {
       "methods": {
         "lookup": {
-          "description": "Returns air quality forecast for a specific location for a given time range.",
+          "description": "Returns air quality forecast for a specific location for a",
           "flatPath": "v1/forecast:lookup",
           "httpMethod": "POST",
           "id": "airquality.forecast.lookup",
@@ -137,7 +137,7 @@
     "history": {
       "methods": {
         "lookup": {
-          "description": "Returns air quality history for a specific location for a given time range.",
+          "description": "Returns air quality history for a specific location for a",
           "flatPath": "v1/history:lookup",
           "httpMethod": "POST",
           "id": "airquality.history.lookup",
@@ -158,7 +158,7 @@
         "heatmapTiles": {
           "methods": {
             "lookupHeatmapTile": {
-              "description": "Returns a bytes array containing the data of the tile PNG image.",
+              "description": "Returns a bytes array containing the data of the tile PNG image",
               "flatPath": "v1/mapTypes/{mapType}/heatmapTiles/{zoom}/{x}/{y}",
               "httpMethod": "GET",
               "id": "airquality.mapTypes.heatmapTiles.lookupHeatmapTile",

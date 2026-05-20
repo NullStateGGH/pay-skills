@@ -91,7 +91,7 @@
     "/api/inbox/messages/read": {
       "post": {
         "operationId": "inbox_messages_read",
-        "summary": "Read a single inbox message ($0.001). Returns text, HTML, and attachment download URLs (1hr expiry). Message content available for 90 days from receipt.",
+        "summary": "Read a single inbox message ($0.001)",
         "tags": [
           "Inbox"
         ],
@@ -147,7 +147,7 @@
     "/api/send": {
       "post": {
         "operationId": "send",
-        "summary": "Send an email from \"StableEmail\" <relay@stableemail.dev> ($0.02)",
+        "summary": "Send an email from \"StableEmail\" <relay@stableemail.dev>",
         "tags": [
           "Send"
         ],
@@ -332,7 +332,7 @@
     "/api/subdomain/send": {
       "post": {
         "operationId": "subdomain_send",
-        "summary": "Send email from your custom subdomain on stableemail.dev ($0.005)",
+        "summary": "Send email from your custom subdomain on stableemail.dev",
         "tags": [
           "Subdomain"
         ],
@@ -460,7 +460,7 @@
     "/api/inbox/buy": {
       "post": {
         "operationId": "inbox_buy",
-        "summary": "Buy an inbox on stableemail.dev ($1, 30 days). forwardTo is optional — omit it to use as a programmatic mailbox via the messages API (retainMessages enabled automatically). Message content and attachments are retained for 90 days.",
+        "summary": "Buy an inbox on stableemail.dev ($1, 30 days)",
         "tags": [
           "Inbox"
         ],
@@ -528,7 +528,7 @@
     "/api/inbox/send": {
       "post": {
         "operationId": "inbox_send",
-        "summary": "Send email from your forwarding inbox on stableemail.dev ($0.005)",
+        "summary": "Send email from your forwarding inbox on stableemail.dev",
         "tags": [
           "Inbox"
         ],
@@ -925,7 +925,7 @@
     "/api/subdomain/inbox/create": {
       "post": {
         "operationId": "subdomain_inbox_create",
-        "summary": "Create an inbox on your subdomain ($0.25). Max 100 inboxes, 500 messages each. Message content and attachments retained for 90 days.",
+        "summary": "Create an inbox on your subdomain ($0.25)",
         "tags": [
           "Subdomain"
         ],
@@ -1080,7 +1080,7 @@
     "/api/subdomain/inbox/messages/read": {
       "post": {
         "operationId": "subdomain_inbox_messages_read",
-        "summary": "Read a single subdomain inbox message ($0.001). Returns text, HTML, and attachment download URLs (1hr expiry). Message content available for 90 days from receipt.",
+        "summary": "Read a single subdomain inbox message ($0.001)",
         "tags": [
           "Subdomain"
         ],

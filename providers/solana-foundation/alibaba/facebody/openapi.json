@@ -239,7 +239,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Human Pose Keypoints"
+        "summary": "Human Pose Keypoints (alibaba facebody Body Posture)"
       }
     },
     "/compare-face": {
@@ -414,7 +414,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Face Comparison"
+        "summary": "Face Comparison (alibaba facebody Compare Face)"
       }
     },
     "/compare-face-with-mask": {
@@ -753,7 +753,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Deepfake Face Detection"
+        "summary": "Deepfake Face Detection (alibaba facebody Deepfake Face)"
       }
     },
     "/detect-body-count": {
@@ -832,7 +832,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Person Counting"
+        "summary": "Person Counting (alibaba facebody Detect Body Count)"
       }
     },
     "/detect-celebrity": {
@@ -942,7 +942,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Celebrity Recognition"
+        "summary": "Celebrity Recognition (alibaba facebody Detect Celebrity)"
       }
     },
     "/detect-face": {
@@ -1553,7 +1553,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Face Liveness Detection"
+        "summary": "Face Liveness Detection (alibaba facebody Detect Living Face)"
       }
     },
     "/detect-pedestrian": {
@@ -1669,7 +1669,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Human Detection"
+        "summary": "Human Detection (alibaba facebody Detect Pedestrian)"
       }
     },
     "/detect-video-living-face": {
@@ -1932,7 +1932,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Fingerprint Extraction"
+        "summary": "Fingerprint Extraction (alibaba facebody Extract Finger Print)"
       }
     },
     "/face-beauty": {
@@ -2031,7 +2031,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Facial Retouching"
+        "summary": "Facial Retouching (alibaba facebody Face Beauty)"
       }
     },
     "/generate-human-anime-style": {
@@ -2405,7 +2405,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Merge facial images"
+        "summary": "Merge facial images (alibaba facebody Merge Image Face)"
       }
     },
     "/monitor-examination": {
@@ -2588,7 +2588,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Online Proctoring"
+        "summary": "Online Proctoring (alibaba facebody Monitor Examination)"
       }
     },
     "/pedestrian-detect-attribute": {

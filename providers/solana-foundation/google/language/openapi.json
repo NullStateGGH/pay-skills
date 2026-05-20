@@ -606,7 +606,8 @@
         },
         "tags": [
           "documents"
-        ]
+        ],
+        "summary": "Finds named entities (currently proper names and common nouns)"
       }
     },
     "/v2/documents:analyzeSentiment": {

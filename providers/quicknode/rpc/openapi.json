@@ -82,7 +82,7 @@
     },
     "/credits": {
       "get": {
-        "summary": "Check credit balance",
+        "summary": "Check credit balance (get Credits)",
         "operationId": "getCredits",
         "x-agentcash-auth": {
           "mode": "apiKey"
@@ -384,7 +384,7 @@
     },
     "/0g-galileo/": {
       "post": {
-        "summary": "JSON-RPC proxy — 0g-galileo",
+        "summary": "JSON-RPC proxy - 0g-galileo",
         "operationId": "jsonRpc_0g_galileo",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -452,7 +452,7 @@
     },
     "/0g-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — 0g-mainnet",
+        "summary": "JSON-RPC proxy - 0g-mainnet",
         "operationId": "jsonRpc_0g_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -520,7 +520,7 @@
     },
     "/abstract-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — abstract-mainnet",
+        "summary": "JSON-RPC proxy - abstract-mainnet",
         "operationId": "jsonRpc_abstract_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -588,7 +588,7 @@
     },
     "/abstract-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — abstract-testnet",
+        "summary": "JSON-RPC proxy - abstract-testnet",
         "operationId": "jsonRpc_abstract_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -656,7 +656,7 @@
     },
     "/aptos-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — aptos-mainnet",
+        "summary": "JSON-RPC proxy - aptos-mainnet",
         "operationId": "jsonRpc_aptos_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -724,7 +724,7 @@
     },
     "/aptos-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — aptos-testnet",
+        "summary": "JSON-RPC proxy - aptos-testnet",
         "operationId": "jsonRpc_aptos_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -792,7 +792,7 @@
     },
     "/arbitrum-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — arbitrum-mainnet",
+        "summary": "JSON-RPC proxy - arbitrum-mainnet",
         "operationId": "jsonRpc_arbitrum_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -860,7 +860,7 @@
     },
     "/arbitrum-sepolia/": {
       "post": {
-        "summary": "JSON-RPC proxy — arbitrum-sepolia",
+        "summary": "JSON-RPC proxy - arbitrum-sepolia",
         "operationId": "jsonRpc_arbitrum_sepolia",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -928,7 +928,7 @@
     },
     "/arc-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — arc-testnet",
+        "summary": "JSON-RPC proxy - arc-testnet",
         "operationId": "jsonRpc_arc_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -996,7 +996,7 @@
     },
     "/avalanche-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — avalanche-mainnet",
+        "summary": "JSON-RPC proxy - avalanche-mainnet",
         "operationId": "jsonRpc_avalanche_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -1064,7 +1064,7 @@
     },
     "/avalanche-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — avalanche-testnet",
+        "summary": "JSON-RPC proxy - avalanche-testnet",
         "operationId": "jsonRpc_avalanche_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -1132,7 +1132,7 @@
     },
     "/b3-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — b3-mainnet",
+        "summary": "JSON-RPC proxy - b3-mainnet",
         "operationId": "jsonRpc_b3_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -1200,7 +1200,7 @@
     },
     "/b3-sepolia/": {
       "post": {
-        "summary": "JSON-RPC proxy — b3-sepolia",
+        "summary": "JSON-RPC proxy - b3-sepolia",
         "operationId": "jsonRpc_b3_sepolia",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -1268,7 +1268,7 @@
     },
     "/base-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — base-mainnet",
+        "summary": "JSON-RPC proxy - base-mainnet",
         "operationId": "jsonRpc_base_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -1336,7 +1336,7 @@
     },
     "/base-sepolia/": {
       "post": {
-        "summary": "JSON-RPC proxy — base-sepolia",
+        "summary": "JSON-RPC proxy - base-sepolia",
         "operationId": "jsonRpc_base_sepolia",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -1404,7 +1404,7 @@
     },
     "/bch-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — bch-mainnet",
+        "summary": "JSON-RPC proxy - bch-mainnet",
         "operationId": "jsonRpc_bch_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -1472,7 +1472,7 @@
     },
     "/bch-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — bch-testnet",
+        "summary": "JSON-RPC proxy - bch-testnet",
         "operationId": "jsonRpc_bch_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -1540,7 +1540,7 @@
     },
     "/bera-bepolia/": {
       "post": {
-        "summary": "JSON-RPC proxy — bera-bepolia",
+        "summary": "JSON-RPC proxy - bera-bepolia",
         "operationId": "jsonRpc_bera_bepolia",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -1608,7 +1608,7 @@
     },
     "/bera-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — bera-mainnet",
+        "summary": "JSON-RPC proxy - bera-mainnet",
         "operationId": "jsonRpc_bera_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -1676,7 +1676,7 @@
     },
     "/blast-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — blast-mainnet",
+        "summary": "JSON-RPC proxy - blast-mainnet",
         "operationId": "jsonRpc_blast_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -1744,7 +1744,7 @@
     },
     "/blast-sepolia/": {
       "post": {
-        "summary": "JSON-RPC proxy — blast-sepolia",
+        "summary": "JSON-RPC proxy - blast-sepolia",
         "operationId": "jsonRpc_blast_sepolia",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -1812,7 +1812,7 @@
     },
     "/bsc-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — bsc-mainnet",
+        "summary": "JSON-RPC proxy - bsc-mainnet",
         "operationId": "jsonRpc_bsc_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -1880,7 +1880,7 @@
     },
     "/bsc-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — bsc-testnet",
+        "summary": "JSON-RPC proxy - bsc-testnet",
         "operationId": "jsonRpc_bsc_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -1948,7 +1948,7 @@
     },
     "/btc-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — btc-mainnet",
+        "summary": "JSON-RPC proxy - btc-mainnet",
         "operationId": "jsonRpc_btc_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -2016,7 +2016,7 @@
     },
     "/btc-testnet4/": {
       "post": {
-        "summary": "JSON-RPC proxy — btc-testnet4",
+        "summary": "JSON-RPC proxy - btc-testnet4",
         "operationId": "jsonRpc_btc_testnet4",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -2084,7 +2084,7 @@
     },
     "/celestia-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — celestia-mainnet",
+        "summary": "JSON-RPC proxy - celestia-mainnet",
         "operationId": "jsonRpc_celestia_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -2152,7 +2152,7 @@
     },
     "/celestia-mocha/": {
       "post": {
-        "summary": "JSON-RPC proxy — celestia-mocha",
+        "summary": "JSON-RPC proxy - celestia-mocha",
         "operationId": "jsonRpc_celestia_mocha",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -2220,7 +2220,7 @@
     },
     "/celo-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — celo-mainnet",
+        "summary": "JSON-RPC proxy - celo-mainnet",
         "operationId": "jsonRpc_celo_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -2288,7 +2288,7 @@
     },
     "/cosmos-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — cosmos-mainnet",
+        "summary": "JSON-RPC proxy - cosmos-mainnet",
         "operationId": "jsonRpc_cosmos_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -2356,7 +2356,7 @@
     },
     "/cyber-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — cyber-mainnet",
+        "summary": "JSON-RPC proxy - cyber-mainnet",
         "operationId": "jsonRpc_cyber_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -2424,7 +2424,7 @@
     },
     "/cyber-sepolia/": {
       "post": {
-        "summary": "JSON-RPC proxy — cyber-sepolia",
+        "summary": "JSON-RPC proxy - cyber-sepolia",
         "operationId": "jsonRpc_cyber_sepolia",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -2492,7 +2492,7 @@
     },
     "/doge-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — doge-mainnet",
+        "summary": "JSON-RPC proxy - doge-mainnet",
         "operationId": "jsonRpc_doge_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -2560,7 +2560,7 @@
     },
     "/dot-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — dot-mainnet",
+        "summary": "JSON-RPC proxy - dot-mainnet",
         "operationId": "jsonRpc_dot_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -2628,7 +2628,7 @@
     },
     "/ethereum-hoodi/": {
       "post": {
-        "summary": "JSON-RPC proxy — ethereum-hoodi",
+        "summary": "JSON-RPC proxy - ethereum-hoodi",
         "operationId": "jsonRpc_ethereum_hoodi",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -2696,7 +2696,7 @@
     },
     "/ethereum-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — ethereum-mainnet",
+        "summary": "JSON-RPC proxy - ethereum-mainnet",
         "operationId": "jsonRpc_ethereum_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -2764,7 +2764,7 @@
     },
     "/ethereum-sepolia/": {
       "post": {
-        "summary": "JSON-RPC proxy — ethereum-sepolia",
+        "summary": "JSON-RPC proxy - ethereum-sepolia",
         "operationId": "jsonRpc_ethereum_sepolia",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -2832,7 +2832,7 @@
     },
     "/fantom-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — fantom-mainnet",
+        "summary": "JSON-RPC proxy - fantom-mainnet",
         "operationId": "jsonRpc_fantom_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -2900,7 +2900,7 @@
     },
     "/flare-coston2/": {
       "post": {
-        "summary": "JSON-RPC proxy — flare-coston2",
+        "summary": "JSON-RPC proxy - flare-coston2",
         "operationId": "jsonRpc_flare_coston2",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -2968,7 +2968,7 @@
     },
     "/flare-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — flare-mainnet",
+        "summary": "JSON-RPC proxy - flare-mainnet",
         "operationId": "jsonRpc_flare_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -3036,7 +3036,7 @@
     },
     "/flow-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — flow-mainnet",
+        "summary": "JSON-RPC proxy - flow-mainnet",
         "operationId": "jsonRpc_flow_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -3104,7 +3104,7 @@
     },
     "/flow-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — flow-testnet",
+        "summary": "JSON-RPC proxy - flow-testnet",
         "operationId": "jsonRpc_flow_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -3172,7 +3172,7 @@
     },
     "/fraxtal-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — fraxtal-mainnet",
+        "summary": "JSON-RPC proxy - fraxtal-mainnet",
         "operationId": "jsonRpc_fraxtal_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -3240,7 +3240,7 @@
     },
     "/fuel-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — fuel-mainnet",
+        "summary": "JSON-RPC proxy - fuel-mainnet",
         "operationId": "jsonRpc_fuel_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -3308,7 +3308,7 @@
     },
     "/fuel-sepolia/": {
       "post": {
-        "summary": "JSON-RPC proxy — fuel-sepolia",
+        "summary": "JSON-RPC proxy - fuel-sepolia",
         "operationId": "jsonRpc_fuel_sepolia",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -3376,7 +3376,7 @@
     },
     "/gravity-alpham/": {
       "post": {
-        "summary": "JSON-RPC proxy — gravity-alpham",
+        "summary": "JSON-RPC proxy - gravity-alpham",
         "operationId": "jsonRpc_gravity_alpham",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -3444,7 +3444,7 @@
     },
     "/hedera-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — hedera-mainnet",
+        "summary": "JSON-RPC proxy - hedera-mainnet",
         "operationId": "jsonRpc_hedera_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -3512,7 +3512,7 @@
     },
     "/hedera-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — hedera-testnet",
+        "summary": "JSON-RPC proxy - hedera-testnet",
         "operationId": "jsonRpc_hedera_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -3580,7 +3580,7 @@
     },
     "/hemi-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — hemi-mainnet",
+        "summary": "JSON-RPC proxy - hemi-mainnet",
         "operationId": "jsonRpc_hemi_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -3648,7 +3648,7 @@
     },
     "/hemi-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — hemi-testnet",
+        "summary": "JSON-RPC proxy - hemi-testnet",
         "operationId": "jsonRpc_hemi_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -3716,7 +3716,7 @@
     },
     "/hype-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — hype-mainnet",
+        "summary": "JSON-RPC proxy - hype-mainnet",
         "operationId": "jsonRpc_hype_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -3784,7 +3784,7 @@
     },
     "/hype-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — hype-testnet",
+        "summary": "JSON-RPC proxy - hype-testnet",
         "operationId": "jsonRpc_hype_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -3852,7 +3852,7 @@
     },
     "/imx-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — imx-mainnet",
+        "summary": "JSON-RPC proxy - imx-mainnet",
         "operationId": "jsonRpc_imx_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -3920,7 +3920,7 @@
     },
     "/imx-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — imx-testnet",
+        "summary": "JSON-RPC proxy - imx-testnet",
         "operationId": "jsonRpc_imx_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -3988,7 +3988,7 @@
     },
     "/injective-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — injective-mainnet",
+        "summary": "JSON-RPC proxy - injective-mainnet",
         "operationId": "jsonRpc_injective_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -4056,7 +4056,7 @@
     },
     "/injective-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — injective-testnet",
+        "summary": "JSON-RPC proxy - injective-testnet",
         "operationId": "jsonRpc_injective_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -4124,7 +4124,7 @@
     },
     "/ink-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — ink-mainnet",
+        "summary": "JSON-RPC proxy - ink-mainnet",
         "operationId": "jsonRpc_ink_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -4192,7 +4192,7 @@
     },
     "/ink-sepolia/": {
       "post": {
-        "summary": "JSON-RPC proxy — ink-sepolia",
+        "summary": "JSON-RPC proxy - ink-sepolia",
         "operationId": "jsonRpc_ink_sepolia",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -4260,7 +4260,7 @@
     },
     "/joc-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — joc-mainnet",
+        "summary": "JSON-RPC proxy - joc-mainnet",
         "operationId": "jsonRpc_joc_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -4328,7 +4328,7 @@
     },
     "/kaia-kairos/": {
       "post": {
-        "summary": "JSON-RPC proxy — kaia-kairos",
+        "summary": "JSON-RPC proxy - kaia-kairos",
         "operationId": "jsonRpc_kaia_kairos",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -4396,7 +4396,7 @@
     },
     "/kaia-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — kaia-mainnet",
+        "summary": "JSON-RPC proxy - kaia-mainnet",
         "operationId": "jsonRpc_kaia_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -4464,7 +4464,7 @@
     },
     "/lens-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — lens-mainnet",
+        "summary": "JSON-RPC proxy - lens-mainnet",
         "operationId": "jsonRpc_lens_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -4532,7 +4532,7 @@
     },
     "/lens-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — lens-testnet",
+        "summary": "JSON-RPC proxy - lens-testnet",
         "operationId": "jsonRpc_lens_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -4600,7 +4600,7 @@
     },
     "/linea-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — linea-mainnet",
+        "summary": "JSON-RPC proxy - linea-mainnet",
         "operationId": "jsonRpc_linea_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -4668,7 +4668,7 @@
     },
     "/lisk-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — lisk-mainnet",
+        "summary": "JSON-RPC proxy - lisk-mainnet",
         "operationId": "jsonRpc_lisk_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -4736,7 +4736,7 @@
     },
     "/ltc-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — ltc-mainnet",
+        "summary": "JSON-RPC proxy - ltc-mainnet",
         "operationId": "jsonRpc_ltc_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -4804,7 +4804,7 @@
     },
     "/ltc-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — ltc-testnet",
+        "summary": "JSON-RPC proxy - ltc-testnet",
         "operationId": "jsonRpc_ltc_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -4872,7 +4872,7 @@
     },
     "/mantle-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — mantle-mainnet",
+        "summary": "JSON-RPC proxy - mantle-mainnet",
         "operationId": "jsonRpc_mantle_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -4940,7 +4940,7 @@
     },
     "/mantle-sepolia/": {
       "post": {
-        "summary": "JSON-RPC proxy — mantle-sepolia",
+        "summary": "JSON-RPC proxy - mantle-sepolia",
         "operationId": "jsonRpc_mantle_sepolia",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -5008,7 +5008,7 @@
     },
     "/matic-amoy/": {
       "post": {
-        "summary": "JSON-RPC proxy — matic-amoy",
+        "summary": "JSON-RPC proxy - matic-amoy",
         "operationId": "jsonRpc_matic_amoy",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -5076,7 +5076,7 @@
     },
     "/matic-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — matic-mainnet",
+        "summary": "JSON-RPC proxy - matic-mainnet",
         "operationId": "jsonRpc_matic_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -5144,7 +5144,7 @@
     },
     "/mode-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — mode-mainnet",
+        "summary": "JSON-RPC proxy - mode-mainnet",
         "operationId": "jsonRpc_mode_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -5212,7 +5212,7 @@
     },
     "/monad-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — monad-mainnet",
+        "summary": "JSON-RPC proxy - monad-mainnet",
         "operationId": "jsonRpc_monad_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -5280,7 +5280,7 @@
     },
     "/monad-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — monad-testnet",
+        "summary": "JSON-RPC proxy - monad-testnet",
         "operationId": "jsonRpc_monad_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -5348,7 +5348,7 @@
     },
     "/morph-hoodi/": {
       "post": {
-        "summary": "JSON-RPC proxy — morph-hoodi",
+        "summary": "JSON-RPC proxy - morph-hoodi",
         "operationId": "jsonRpc_morph_hoodi",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -5416,7 +5416,7 @@
     },
     "/morph-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — morph-mainnet",
+        "summary": "JSON-RPC proxy - morph-mainnet",
         "operationId": "jsonRpc_morph_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -5484,7 +5484,7 @@
     },
     "/near-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — near-mainnet",
+        "summary": "JSON-RPC proxy - near-mainnet",
         "operationId": "jsonRpc_near_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -5552,7 +5552,7 @@
     },
     "/near-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — near-testnet",
+        "summary": "JSON-RPC proxy - near-testnet",
         "operationId": "jsonRpc_near_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -5620,7 +5620,7 @@
     },
     "/nova-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — nova-mainnet",
+        "summary": "JSON-RPC proxy - nova-mainnet",
         "operationId": "jsonRpc_nova_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -5688,7 +5688,7 @@
     },
     "/omni-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — omni-mainnet",
+        "summary": "JSON-RPC proxy - omni-mainnet",
         "operationId": "jsonRpc_omni_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -5756,7 +5756,7 @@
     },
     "/omni-omega/": {
       "post": {
-        "summary": "JSON-RPC proxy — omni-omega",
+        "summary": "JSON-RPC proxy - omni-omega",
         "operationId": "jsonRpc_omni_omega",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -5824,7 +5824,7 @@
     },
     "/optimism-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — optimism-mainnet",
+        "summary": "JSON-RPC proxy - optimism-mainnet",
         "operationId": "jsonRpc_optimism_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -5892,7 +5892,7 @@
     },
     "/optimism-sepolia/": {
       "post": {
-        "summary": "JSON-RPC proxy — optimism-sepolia",
+        "summary": "JSON-RPC proxy - optimism-sepolia",
         "operationId": "jsonRpc_optimism_sepolia",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -5960,7 +5960,7 @@
     },
     "/osmosis-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — osmosis-mainnet",
+        "summary": "JSON-RPC proxy - osmosis-mainnet",
         "operationId": "jsonRpc_osmosis_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -6028,7 +6028,7 @@
     },
     "/peaq-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — peaq-mainnet",
+        "summary": "JSON-RPC proxy - peaq-mainnet",
         "operationId": "jsonRpc_peaq_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -6096,7 +6096,7 @@
     },
     "/plasma-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — plasma-mainnet",
+        "summary": "JSON-RPC proxy - plasma-mainnet",
         "operationId": "jsonRpc_plasma_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -6164,7 +6164,7 @@
     },
     "/plasma-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — plasma-testnet",
+        "summary": "JSON-RPC proxy - plasma-testnet",
         "operationId": "jsonRpc_plasma_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -6232,7 +6232,7 @@
     },
     "/redstone-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — redstone-mainnet",
+        "summary": "JSON-RPC proxy - redstone-mainnet",
         "operationId": "jsonRpc_redstone_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -6300,7 +6300,7 @@
     },
     "/sahara-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — sahara-testnet",
+        "summary": "JSON-RPC proxy - sahara-testnet",
         "operationId": "jsonRpc_sahara_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -6368,7 +6368,7 @@
     },
     "/scroll-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — scroll-mainnet",
+        "summary": "JSON-RPC proxy - scroll-mainnet",
         "operationId": "jsonRpc_scroll_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -6436,7 +6436,7 @@
     },
     "/scroll-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — scroll-testnet",
+        "summary": "JSON-RPC proxy - scroll-testnet",
         "operationId": "jsonRpc_scroll_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -6504,7 +6504,7 @@
     },
     "/sei-atlantic/": {
       "post": {
-        "summary": "JSON-RPC proxy — sei-atlantic",
+        "summary": "JSON-RPC proxy - sei-atlantic",
         "operationId": "jsonRpc_sei_atlantic",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -6572,7 +6572,7 @@
     },
     "/sei-pacific/": {
       "post": {
-        "summary": "JSON-RPC proxy — sei-pacific",
+        "summary": "JSON-RPC proxy - sei-pacific",
         "operationId": "jsonRpc_sei_pacific",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -6640,7 +6640,7 @@
     },
     "/solana-devnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — solana-devnet",
+        "summary": "JSON-RPC proxy - solana-devnet",
         "operationId": "jsonRpc_solana_devnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -6708,7 +6708,7 @@
     },
     "/solana-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — solana-mainnet",
+        "summary": "JSON-RPC proxy - solana-mainnet",
         "operationId": "jsonRpc_solana_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -6776,7 +6776,7 @@
     },
     "/solana-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — solana-testnet",
+        "summary": "JSON-RPC proxy - solana-testnet",
         "operationId": "jsonRpc_solana_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -6844,7 +6844,7 @@
     },
     "/soneium-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — soneium-mainnet",
+        "summary": "JSON-RPC proxy - soneium-mainnet",
         "operationId": "jsonRpc_soneium_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -6912,7 +6912,7 @@
     },
     "/sonic-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — sonic-mainnet",
+        "summary": "JSON-RPC proxy - sonic-mainnet",
         "operationId": "jsonRpc_sonic_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -6980,7 +6980,7 @@
     },
     "/sophon-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — sophon-mainnet",
+        "summary": "JSON-RPC proxy - sophon-mainnet",
         "operationId": "jsonRpc_sophon_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -7048,7 +7048,7 @@
     },
     "/sophon-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — sophon-testnet",
+        "summary": "JSON-RPC proxy - sophon-testnet",
         "operationId": "jsonRpc_sophon_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -7116,7 +7116,7 @@
     },
     "/stacks-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — stacks-mainnet",
+        "summary": "JSON-RPC proxy - stacks-mainnet",
         "operationId": "jsonRpc_stacks_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -7184,7 +7184,7 @@
     },
     "/stacks-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — stacks-testnet",
+        "summary": "JSON-RPC proxy - stacks-testnet",
         "operationId": "jsonRpc_stacks_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -7252,7 +7252,7 @@
     },
     "/stellar-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — stellar-mainnet",
+        "summary": "JSON-RPC proxy - stellar-mainnet",
         "operationId": "jsonRpc_stellar_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -7320,7 +7320,7 @@
     },
     "/stellar-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — stellar-testnet",
+        "summary": "JSON-RPC proxy - stellar-testnet",
         "operationId": "jsonRpc_stellar_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -7388,7 +7388,7 @@
     },
     "/story-aeneid/": {
       "post": {
-        "summary": "JSON-RPC proxy — story-aeneid",
+        "summary": "JSON-RPC proxy - story-aeneid",
         "operationId": "jsonRpc_story_aeneid",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -7456,7 +7456,7 @@
     },
     "/story-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — story-mainnet",
+        "summary": "JSON-RPC proxy - story-mainnet",
         "operationId": "jsonRpc_story_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -7524,7 +7524,7 @@
     },
     "/strk-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — strk-mainnet",
+        "summary": "JSON-RPC proxy - strk-mainnet",
         "operationId": "jsonRpc_strk_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -7592,7 +7592,7 @@
     },
     "/strk-sepolia/": {
       "post": {
-        "summary": "JSON-RPC proxy — strk-sepolia",
+        "summary": "JSON-RPC proxy - strk-sepolia",
         "operationId": "jsonRpc_strk_sepolia",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -7660,7 +7660,7 @@
     },
     "/sui-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — sui-mainnet",
+        "summary": "JSON-RPC proxy - sui-mainnet",
         "operationId": "jsonRpc_sui_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -7728,7 +7728,7 @@
     },
     "/sui-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — sui-testnet",
+        "summary": "JSON-RPC proxy - sui-testnet",
         "operationId": "jsonRpc_sui_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -7796,7 +7796,7 @@
     },
     "/tempo-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — tempo-mainnet",
+        "summary": "JSON-RPC proxy - tempo-mainnet",
         "operationId": "jsonRpc_tempo_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -7864,7 +7864,7 @@
     },
     "/tempo-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — tempo-testnet",
+        "summary": "JSON-RPC proxy - tempo-testnet",
         "operationId": "jsonRpc_tempo_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -7932,7 +7932,7 @@
     },
     "/ton-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — ton-mainnet",
+        "summary": "JSON-RPC proxy - ton-mainnet",
         "operationId": "jsonRpc_ton_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -8000,7 +8000,7 @@
     },
     "/tron-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — tron-mainnet",
+        "summary": "JSON-RPC proxy - tron-mainnet",
         "operationId": "jsonRpc_tron_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -8068,7 +8068,7 @@
     },
     "/unichain-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — unichain-mainnet",
+        "summary": "JSON-RPC proxy - unichain-mainnet",
         "operationId": "jsonRpc_unichain_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -8136,7 +8136,7 @@
     },
     "/unichain-sepolia/": {
       "post": {
-        "summary": "JSON-RPC proxy — unichain-sepolia",
+        "summary": "JSON-RPC proxy - unichain-sepolia",
         "operationId": "jsonRpc_unichain_sepolia",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -8204,7 +8204,7 @@
     },
     "/vana-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — vana-mainnet",
+        "summary": "JSON-RPC proxy - vana-mainnet",
         "operationId": "jsonRpc_vana_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -8272,7 +8272,7 @@
     },
     "/vana-moksha/": {
       "post": {
-        "summary": "JSON-RPC proxy — vana-moksha",
+        "summary": "JSON-RPC proxy - vana-moksha",
         "operationId": "jsonRpc_vana_moksha",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -8340,7 +8340,7 @@
     },
     "/worldchain-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — worldchain-mainnet",
+        "summary": "JSON-RPC proxy - worldchain-mainnet",
         "operationId": "jsonRpc_worldchain_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -8408,7 +8408,7 @@
     },
     "/worldchain-sepolia/": {
       "post": {
-        "summary": "JSON-RPC proxy — worldchain-sepolia",
+        "summary": "JSON-RPC proxy - worldchain-sepolia",
         "operationId": "jsonRpc_worldchain_sepolia",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -8476,7 +8476,7 @@
     },
     "/xai-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — xai-mainnet",
+        "summary": "JSON-RPC proxy - xai-mainnet",
         "operationId": "jsonRpc_xai_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -8544,7 +8544,7 @@
     },
     "/xai-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — xai-testnet",
+        "summary": "JSON-RPC proxy - xai-testnet",
         "operationId": "jsonRpc_xai_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -8612,7 +8612,7 @@
     },
     "/xdai-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — xdai-mainnet",
+        "summary": "JSON-RPC proxy - xdai-mainnet",
         "operationId": "jsonRpc_xdai_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -8680,7 +8680,7 @@
     },
     "/xlayer-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — xlayer-mainnet",
+        "summary": "JSON-RPC proxy - xlayer-mainnet",
         "operationId": "jsonRpc_xlayer_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -8748,7 +8748,7 @@
     },
     "/xlayer-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — xlayer-testnet",
+        "summary": "JSON-RPC proxy - xlayer-testnet",
         "operationId": "jsonRpc_xlayer_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -8816,7 +8816,7 @@
     },
     "/xrp-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — xrp-mainnet",
+        "summary": "JSON-RPC proxy - xrp-mainnet",
         "operationId": "jsonRpc_xrp_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -8884,7 +8884,7 @@
     },
     "/xrp-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — xrp-testnet",
+        "summary": "JSON-RPC proxy - xrp-testnet",
         "operationId": "jsonRpc_xrp_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -8952,7 +8952,7 @@
     },
     "/xrplevm-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — xrplevm-mainnet",
+        "summary": "JSON-RPC proxy - xrplevm-mainnet",
         "operationId": "jsonRpc_xrplevm_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -9020,7 +9020,7 @@
     },
     "/xrplevm-testnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — xrplevm-testnet",
+        "summary": "JSON-RPC proxy - xrplevm-testnet",
         "operationId": "jsonRpc_xrplevm_testnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -9088,7 +9088,7 @@
     },
     "/zkevm-cardona/": {
       "post": {
-        "summary": "JSON-RPC proxy — zkevm-cardona",
+        "summary": "JSON-RPC proxy - zkevm-cardona",
         "operationId": "jsonRpc_zkevm_cardona",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -9156,7 +9156,7 @@
     },
     "/zkevm-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — zkevm-mainnet",
+        "summary": "JSON-RPC proxy - zkevm-mainnet",
         "operationId": "jsonRpc_zkevm_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -9224,7 +9224,7 @@
     },
     "/zksync-mainnet/": {
       "post": {
-        "summary": "JSON-RPC proxy — zksync-mainnet",
+        "summary": "JSON-RPC proxy - zksync-mainnet",
         "operationId": "jsonRpc_zksync_mainnet",
         "x-agentcash-auth": {
           "mode": "paid"
@@ -9292,7 +9292,7 @@
     },
     "/zksync-sepolia/": {
       "post": {
-        "summary": "JSON-RPC proxy — zksync-sepolia",
+        "summary": "JSON-RPC proxy - zksync-sepolia",
         "operationId": "jsonRpc_zksync_sepolia",
         "x-agentcash-auth": {
           "mode": "paid"

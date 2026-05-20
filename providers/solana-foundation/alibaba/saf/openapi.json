@@ -421,7 +421,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "RequestDecision"
+        "summary": "RequestDecision (alibaba saf Request Decision)"
       }
     }
   },

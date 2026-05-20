@@ -385,7 +385,8 @@
         },
         "tags": [
           "text"
-        ]
+        ],
+        "summary": "Synthesizes speech synchronously: receive results after all"
       }
     },
     "/v1/voices": {

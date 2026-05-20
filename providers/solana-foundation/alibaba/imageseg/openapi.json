@@ -85,7 +85,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Sky Replacement"
+        "summary": "Sky Replacement (alibaba imageseg Change Sky)"
       }
     },
     "/parse-face": {
@@ -350,7 +350,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Human Segmentation"
+        "summary": "Human Segmentation (alibaba imageseg Segment Body)"
       }
     },
     "/segment-cloth": {
@@ -474,7 +474,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Clothing Segmentation"
+        "summary": "Clothing Segmentation (alibaba imageseg Segment Cloth)"
       }
     },
     "/segment-commodity": {
@@ -556,7 +556,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Product Segmentation"
+        "summary": "Product Segmentation (alibaba imageseg Segment Commodity)"
       }
     },
     "/segment-common-image": {
@@ -638,7 +638,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "General Segmentation"
+        "summary": "General Segmentation (alibaba imageseg Segment Common Image)"
       }
     },
     "/segment-food": {
@@ -720,7 +720,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Food Segmentation"
+        "summary": "Food Segmentation (alibaba imageseg Segment Food)"
       }
     },
     "/segment-hair": {
@@ -824,7 +824,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Hair Segmentation"
+        "summary": "Hair Segmentation (alibaba imageseg Segment Hair)"
       }
     },
     "/segment-hdbody": {
@@ -1251,7 +1251,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Skin Segmentation"
+        "summary": "Skin Segmentation (alibaba imageseg Segment Skin)"
       }
     },
     "/segment-sky": {
@@ -1322,7 +1322,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Sky Segmentation"
+        "summary": "Sky Segmentation (alibaba imageseg Segment Sky)"
       }
     }
   },

@@ -407,7 +407,7 @@
     },
     "/v1/account/sessions": {
       "get": {
-        "summary": "Get session list",
+        "summary": "Get session list (v1 account sessions)",
         "x-agentcash-auth": {
           "mode": "siwx"
         },
@@ -498,7 +498,7 @@
     },
     "/v1/webrtc/token": {
       "post": {
-        "summary": "Create a WebRTC session",
+        "summary": "Create a WebRTC session (v1 webrtc token)",
         "x-agentcash-auth": {
           "mode": "siwx"
         },
@@ -621,7 +621,7 @@
     },
     "/v1/webrtc/token/extend": {
       "post": {
-        "summary": "Extend a WebRTC session",
+        "summary": "Extend a WebRTC session (webrtc token extend)",
         "x-agentcash-auth": {
           "mode": "siwx"
         },
@@ -705,7 +705,7 @@
     },
     "/v1/stt/session": {
       "post": {
-        "summary": "Create an STT session",
+        "summary": "Create an STT session (v1 stt session)",
         "x-agentcash-auth": {
           "mode": "siwx"
         },
@@ -815,7 +815,7 @@
     },
     "/v1/stt/session/extend": {
       "post": {
-        "summary": "Extend an STT session",
+        "summary": "Extend an STT session (post stt session extend)",
         "x-agentcash-auth": {
           "mode": "siwx"
         },
@@ -899,7 +899,7 @@
     },
     "/v1/tts/session": {
       "post": {
-        "summary": "Create a TTS session",
+        "summary": "Create a TTS session (v1 tts session)",
         "x-agentcash-auth": {
           "mode": "siwx"
         },
@@ -1008,7 +1008,7 @@
     },
     "/v1/tts/session/extend": {
       "post": {
-        "summary": "Extend a TTS session",
+        "summary": "Extend a TTS session (post tts session extend)",
         "x-agentcash-auth": {
           "mode": "siwx"
         },
@@ -1256,7 +1256,7 @@
     },
     "/v1/agent-session/extend": {
       "post": {
-        "summary": "Extend an Agent session",
+        "summary": "Extend an Agent session (v1 agent session extend)",
         "x-agentcash-auth": {
           "mode": "siwx"
         },

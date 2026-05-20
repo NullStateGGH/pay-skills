@@ -97,7 +97,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Bank Card Recognition"
+        "summary": "Bank Card Recognition (alibaba viapi-ocr Recognize Bank Card)"
       }
     },
     "/recognize-business-license": {
@@ -506,7 +506,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "General Recognition"
+        "summary": "General Recognition (alibaba viapi-ocr Recognize Character)"
       }
     },
     "/recognize-driver-license": {
@@ -1102,7 +1102,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "ID Card Recognition"
+        "summary": "ID Card Recognition (alibaba viapi-ocr Recognize Identity Card)"
       }
     },
     "/recognize-license-plate": {
@@ -1398,7 +1398,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "QR Code Detection"
+        "summary": "QR Code Detection (alibaba viapi-ocr Recognize Qr Code)"
       }
     },
     "/recognize-quota-invoice": {
@@ -1781,7 +1781,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Table Recognition"
+        "summary": "Table Recognition (alibaba viapi-ocr Recognize Table)"
       }
     },
     "/recognize-taxi-invoice": {
@@ -2720,7 +2720,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "VAT Invoice Recognition"
+        "summary": "VAT Invoice Recognition (alibaba viapi-ocr Recognize"
       }
     },
     "/recognize-vincode": {
@@ -2791,7 +2791,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "VIN Code Detection"
+        "summary": "VIN Code Detection (alibaba viapi-ocr Recognize VINCode)"
       }
     }
   },

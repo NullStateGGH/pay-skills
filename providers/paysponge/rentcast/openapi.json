@@ -9,7 +9,7 @@
   "paths": {
     "/markets": {
       "get": {
-        "summary": "Market Statistics",
+        "summary": "Market Statistics (market-statistics)",
         "responses": {
           "200": {
             "content": {
@@ -7070,7 +7070,7 @@
     },
     "/avm/value": {
       "get": {
-        "summary": "Value Estimate",
+        "summary": "Value Estimate (value-estimate)",
         "responses": {
           "200": {
             "content": {
@@ -7837,7 +7837,7 @@
     },
     "/properties": {
       "get": {
-        "summary": "Property Records",
+        "summary": "Property Records (property-records)",
         "responses": {
           "200": {
             "content": {
@@ -9326,7 +9326,7 @@
     },
     "/listings/sale": {
       "get": {
-        "summary": "Sale Listings",
+        "summary": "Sale Listings (sale-listings)",
         "responses": {
           "200": {
             "content": {
@@ -10375,7 +10375,7 @@
     },
     "/properties/{id}": {
       "get": {
-        "summary": "Property Record by Id",
+        "summary": "Property Record by Id (property-record-by-id)",
         "security": [
           {
             "sec0": []
@@ -10697,7 +10697,7 @@
     },
     "/properties/random": {
       "get": {
-        "summary": "Random Property Records",
+        "summary": "Random Property Records (property-records-random)",
         "responses": {
           "200": {
             "content": {
@@ -12399,7 +12399,7 @@
     },
     "/avm/rent/long-term": {
       "get": {
-        "summary": "Rent Estimate",
+        "summary": "Rent Estimate (rent-estimate-long-term)",
         "responses": {
           "200": {
             "content": {
@@ -13162,7 +13162,7 @@
     },
     "/listings/sale/{id}": {
       "get": {
-        "summary": "Sale Listing by Id",
+        "summary": "Sale Listing by Id (sale-listing-by-id)",
         "responses": {
           "200": {
             "content": {
@@ -13401,7 +13401,7 @@
     },
     "/listings/rental/long-term": {
       "get": {
-        "summary": "Rental Listings",
+        "summary": "Rental Listings (rental-listings-long-term)",
         "responses": {
           "200": {
             "content": {
@@ -14431,7 +14431,7 @@
     },
     "/listings/rental/long-term/{id}": {
       "get": {
-        "summary": "Rental Listing by Id",
+        "summary": "Rental Listing by Id (rental-listing-long-term-by-id)",
         "responses": {
           "200": {
             "content": {

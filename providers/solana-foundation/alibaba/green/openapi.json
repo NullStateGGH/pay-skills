@@ -411,7 +411,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "ImageBatchModeration"
+        "summary": "ImageBatchModeration (alibaba green Image Batch Moderation)"
       }
     },
     "/image-moderation": {
@@ -1094,7 +1094,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "ImageModeration"
+        "summary": "ImageModeration (alibaba green Image Moderation)"
       }
     },
     "/multi-modal-agent": {
@@ -1238,7 +1238,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "MultiModalAgent"
+        "summary": "MultiModalAgent (alibaba green Multi Modal Agent)"
       }
     },
     "/multi-modal-guard": {
@@ -1395,7 +1395,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "MultiModalGuard"
+        "summary": "MultiModalGuard (alibaba green Multi Modal Guard)"
       }
     },
     "/text-moderation": {
@@ -1537,7 +1537,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "TextModeration"
+        "summary": "TextModeration (alibaba green Text Moderation)"
       }
     },
     "/text-moderation-plus": {
@@ -1855,7 +1855,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "TextModerationPlus"
+        "summary": "TextModerationPlus (alibaba green Text Moderation Plus)"
       }
     }
   },

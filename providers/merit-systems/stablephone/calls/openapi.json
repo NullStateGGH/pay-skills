@@ -30,7 +30,7 @@
     "/api/number/topup": {
       "post": {
         "operationId": "number_topup",
-        "summary": "Extend a phone number by 30 days from current expiry ($15.00 via x402). Top-ups stack. Anyone can top up any number.",
+        "summary": "Extend a phone number by 30 days from current expiry ($15.00",
         "tags": [
           "Number"
         ],
@@ -112,7 +112,7 @@
     "/api/lookup": {
       "post": {
         "operationId": "lookup",
-        "summary": "Check if a phone number has iMessage/FaceTime ($0.05 via x402). Returns a token to poll for async results.",
+        "summary": "Check if a phone number has iMessage/FaceTime ($0.05 via x402)",
         "tags": [
           "Lookup"
         ],
@@ -185,7 +185,7 @@
     "/api/number": {
       "post": {
         "operationId": "number",
-        "summary": "Buy a phone number ($20.00 via x402). Use it as outbound caller ID.",
+        "summary": "Buy a phone number ($20.00 via x402)",
         "tags": [
           "Number"
         ],
@@ -271,7 +271,7 @@
     "/api/call": {
       "post": {
         "operationId": "call",
-        "summary": "Make an AI phone call ($0.54). Send a phone number and task, get back a call_id to track status. Returns 403 if the number is on the Do-Not-Call (DNC) list — do not retry DNC numbers.",
+        "summary": "Make an AI phone call ($0.54)",
         "tags": [
           "Call"
         ],
@@ -412,7 +412,7 @@
     "/api/call/:id": {
       "get": {
         "operationId": "call_status",
-        "summary": "Get call status and transcript. Requires SIWX — only the wallet that paid can poll.",
+        "summary": "Get call status and transcript",
         "tags": [
           "Call"
         ],
@@ -456,7 +456,7 @@
     "/api/lookup/status": {
       "get": {
         "operationId": "lookup_status",
-        "summary": "Poll lookup status. Requires SIWX — only the wallet that paid can poll.",
+        "summary": "Poll lookup status. Requires SIWX - only the wallet that paid",
         "tags": [
           "Lookup"
         ],

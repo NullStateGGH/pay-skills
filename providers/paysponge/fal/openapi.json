@@ -272,7 +272,7 @@
     },
     "/fal-ai/stable-diffusion-v35-large/requests/{request_id}/status": {
       "get": {
-        "summary": "Check request status",
+        "summary": "Check request status (get Stable Diffusion V35Large Status)",
         "responses": {
           "200": {
             "description": "Current queue state for the request.",
@@ -844,7 +844,7 @@
     },
     "/fal-ai/stable-diffusion-v35-large/requests/{request_id}/cancel": {
       "put": {
-        "summary": "Cancel a queued request",
+        "summary": "Cancel a queued request (cancel Stable Diffusion V35Large",
         "responses": {
           "200": {
             "description": "Cancellation status.",
@@ -1282,7 +1282,7 @@
     },
     "/fal-ai/recraft-v3/requests/{request_id}/cancel": {
       "put": {
-        "summary": "Cancel a queued request",
+        "summary": "Cancel a queued request (cancel Recraft V3Request)",
         "responses": {
           "200": {
             "description": "Cancellation status.",
@@ -1722,7 +1722,7 @@
     },
     "/fal-ai/stable-video/requests/{request_id}/status": {
       "get": {
-        "summary": "Check request status",
+        "summary": "Check request status (get Stable Video Status)",
         "responses": {
           "200": {
             "description": "Current queue state for the request.",
@@ -1905,7 +1905,7 @@
     },
     "/fal-ai/minimax/requests/{request_id}/cancel": {
       "put": {
-        "summary": "Cancel a queued request",
+        "summary": "Cancel a queued request (cancel Mini Max Video01Request)",
         "responses": {
           "200": {
             "description": "Cancellation status.",
@@ -2182,7 +2182,7 @@
     },
     "/fal-ai/fast-sdxl/requests/{request_id}/status": {
       "get": {
-        "summary": "Check request status",
+        "summary": "Check request status (get Fast Sdxl Status)",
         "responses": {
           "200": {
             "description": "Current queue state for the request.",
@@ -2513,7 +2513,7 @@
     },
     "/fal-ai/fast-sdxl/requests/{request_id}/cancel": {
       "put": {
-        "summary": "Cancel a queued request",
+        "summary": "Cancel a queued request (cancel Fast Sdxl Request)",
         "responses": {
           "200": {
             "description": "Cancellation status.",
@@ -2667,7 +2667,7 @@
     },
     "/fal-ai/recraft-v3/requests/{request_id}/status": {
       "get": {
-        "summary": "Check request status",
+        "summary": "Check request status (get Recraft V3Status)",
         "responses": {
           "200": {
             "description": "Current queue state for the request.",
@@ -2975,7 +2975,7 @@
     },
     "/fal-ai/stable-video/requests/{request_id}/cancel": {
       "put": {
-        "summary": "Cancel a queued request",
+        "summary": "Cancel a queued request (cancel Stable Video Request)",
         "responses": {
           "200": {
             "description": "Cancellation status.",
@@ -3425,7 +3425,7 @@
     },
     "/fal-ai/minimax/requests/{request_id}/status": {
       "get": {
-        "summary": "Check request status",
+        "summary": "Check request status (get Mini Max Video01Status)",
         "responses": {
           "200": {
             "description": "Current queue state for the request.",
@@ -3608,7 +3608,7 @@
     },
     "/fal-ai/flux/requests/{request_id}/status": {
       "get": {
-        "summary": "Check request status",
+        "summary": "Check request status (get Flux Status)",
         "responses": {
           "200": {
             "description": "Current queue state for the request.",
@@ -3950,7 +3950,7 @@
     },
     "/fal-ai/flux/requests/{request_id}/cancel": {
       "put": {
-        "summary": "Cancel a queued request",
+        "summary": "Cancel a queued request (cancel Flux Request)",
         "responses": {
           "200": {
             "description": "Cancellation status.",
@@ -4104,7 +4104,7 @@
     },
     "/fal-ai/flux-pro/requests/{request_id}/status": {
       "get": {
-        "summary": "Check request status",
+        "summary": "Check request status (get Flux Pro Status)",
         "responses": {
           "200": {
             "description": "Current queue state for the request.",
@@ -4446,7 +4446,7 @@
     },
     "/fal-ai/flux-pro/requests/{request_id}/cancel": {
       "put": {
-        "summary": "Cancel a queued request",
+        "summary": "Cancel a queued request (cancel Flux Pro Request)",
         "responses": {
           "200": {
             "description": "Cancellation status.",

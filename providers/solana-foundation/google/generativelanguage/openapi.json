@@ -99,7 +99,7 @@
     "models": {
       "methods": {
         "list": {
-          "description": "Lists the [`Model`s](https://ai.google.dev/gemini-api/docs/models/gemini) available through the Gemini API.",
+          "description": "Lists the Models available through the Gemini API",
           "flatPath": "v1beta/models",
           "httpMethod": "GET",
           "id": "generativelanguage.models.list",

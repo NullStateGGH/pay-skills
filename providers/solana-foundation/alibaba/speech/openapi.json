@@ -209,7 +209,7 @@
             "description": "Task status response."
           }
         },
-        "summary": "Poll task status",
+        "summary": "Poll task status (alibaba speech get Task)",
         "tags": [
           "tasks"
         ]

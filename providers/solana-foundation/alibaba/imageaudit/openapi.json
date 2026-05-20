@@ -533,7 +533,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Text Content Moderation"
+        "summary": "Text Content Moderation (alibaba imageaudit Scan Text)"
       }
     }
   },

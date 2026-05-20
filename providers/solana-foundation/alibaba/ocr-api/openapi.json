@@ -1684,7 +1684,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Unified OCR Recognition"
+        "summary": "Unified OCR Recognition (alibaba ocr-api Recognize All Text)"
       }
     },
     "/recognize-bank-acceptance": {
@@ -1951,7 +1951,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Bank Card Recognition"
+        "summary": "Bank Card Recognition (alibaba ocr-api Recognize Bank Card)"
       }
     },
     "/recognize-basic": {
@@ -2051,7 +2051,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "E-commerce Image OCR"
+        "summary": "E-commerce Image OCR (alibaba ocr-api Recognize Basic)"
       }
     },
     "/recognize-birth-certification": {
@@ -2359,7 +2359,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "RecognizeCarInvoice"
+        "summary": "RecognizeCarInvoice (alibaba ocr-api Recognize Car Invoice)"
       }
     },
     "/recognize-car-number": {
@@ -2400,7 +2400,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "RecognizeCarNumber"
+        "summary": "RecognizeCarNumber (alibaba ocr-api Recognize Car Number)"
       }
     },
     "/recognize-car-vin-code": {
@@ -2956,7 +2956,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Recognition of ICP Filing Credential for Class II Medical Devices"
+        "summary": "Recognition of ICP Filing Credential for Class II Medical"
       }
     },
     "/recognize-document-structure": {
@@ -3411,7 +3411,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Oral Arithmetic Grading"
+        "summary": "Oral Arithmetic Grading (alibaba ocr-api Recognize Edu Oral"
       }
     },
     "/recognize-edu-paper-cut": {
@@ -3888,7 +3888,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Question Recognition"
+        "summary": "Question Recognition (alibaba ocr-api Recognize Edu Question"
       }
     },
     "/recognize-english": {
@@ -4555,7 +4555,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "General OCR"
+        "summary": "General OCR (alibaba ocr-api Recognize General)"
       }
     },
     "/recognize-general-structure": {
@@ -5346,7 +5346,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "ID Card Recognition"
+        "summary": "ID Card Recognition (alibaba ocr-api Recognize Idcard)"
       }
     },
     "/recognize-international-business-license": {
@@ -5657,7 +5657,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "VAT Invoice Recognition"
+        "summary": "VAT Invoice Recognition (alibaba ocr-api Recognize Invoice)"
       }
     },
     "/recognize-janpanese": {
@@ -5779,7 +5779,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Japanese Recognition"
+        "summary": "Japanese Recognition (alibaba ocr-api Recognize Janpanese)"
       }
     },
     "/recognize-korean": {
@@ -5901,7 +5901,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Korean Recognition"
+        "summary": "Korean Recognition (alibaba ocr-api Recognize Korean)"
       }
     },
     "/recognize-latin": {
@@ -6023,7 +6023,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Latin Text Recognition"
+        "summary": "Latin Text Recognition (alibaba ocr-api Recognize Latin)"
       }
     },
     "/recognize-medical-device-manage-license": {
@@ -7218,7 +7218,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Russian Recognition"
+        "summary": "Russian Recognition (alibaba ocr-api Recognize Russian)"
       }
     },
     "/recognize-shopping-receipt": {
@@ -7307,7 +7307,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Receipt Recognition"
+        "summary": "Receipt Recognition (alibaba ocr-api Recognize Shopping"
       }
     },
     "/recognize-social-security-card": {
@@ -7622,7 +7622,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Table Recognition"
+        "summary": "Table Recognition (alibaba ocr-api Recognize Table Ocr)"
       }
     },
     "/recognize-tax-clearance-certificate": {
@@ -7922,7 +7922,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Thai Recognition"
+        "summary": "Thai Recognition (alibaba ocr-api Recognize Thai)"
       }
     },
     "/recognize-toll-invoice": {
@@ -8844,7 +8844,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Invoice Verification"
+        "summary": "Invoice Verification (alibaba ocr-api Verify VATInvoice)"
       }
     }
   },

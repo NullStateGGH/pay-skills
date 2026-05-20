@@ -352,7 +352,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Entity Detection"
+        "summary": "Entity Detection (alibaba objectdet Detect Main Body)"
       }
     },
     "/detect-object": {
@@ -466,7 +466,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Object Detection"
+        "summary": "Object Detection (alibaba objectdet Detect Object)"
       }
     },
     "/detect-vehicle-icongestion": {
@@ -1202,7 +1202,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Clothing Detection"
+        "summary": "Clothing Detection (alibaba objectdet Detect Workwear)"
       }
     }
   },

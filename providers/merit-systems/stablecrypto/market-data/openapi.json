@@ -1832,7 +1832,7 @@
     "/api/coingecko/exchange/tickers": {
       "post": {
         "operationId": "coingecko_exchange_tickers",
-        "summary": "Get exchange tickers",
+        "summary": "Get exchange tickers (coingecko exchange tickers)",
         "tags": [
           "Coingecko"
         ],
@@ -2093,7 +2093,7 @@
     "/api/coingecko/onchain/search": {
       "post": {
         "operationId": "coingecko_onchain_search",
-        "summary": "Search on-chain pools",
+        "summary": "Search on-chain pools (coingecko onchain search)",
         "tags": [
           "Coingecko"
         ],
@@ -2255,7 +2255,7 @@
     "/api/coingecko/onchain/categories": {
       "post": {
         "operationId": "coingecko_onchain_categories",
-        "summary": "Get on-chain categories",
+        "summary": "Get on-chain categories (coingecko onchain categories)",
         "tags": [
           "Coingecko"
         ],
@@ -2412,7 +2412,7 @@
     "/api/coingecko/onchain/pool/info": {
       "post": {
         "operationId": "coingecko_onchain_pool_info",
-        "summary": "Get pool metadata",
+        "summary": "Get pool metadata (coingecko onchain pool info)",
         "tags": [
           "Coingecko"
         ],
@@ -2685,7 +2685,7 @@
     "/api/coingecko/onchain/network/dexes": {
       "post": {
         "operationId": "coingecko_onchain_network_dexes",
-        "summary": "Get DEXes on a network",
+        "summary": "Get DEXes on a network (coingecko onchain network dexes)",
         "tags": [
           "Coingecko"
         ],
@@ -3620,7 +3620,7 @@
     "/api/defillama/coins/batch-historical": {
       "post": {
         "operationId": "defillama_coins_batch-historical",
-        "summary": "Get historical prices for multiple tokens at multiple timestamps",
+        "summary": "Get historical prices for multiple tokens at multiple",
         "tags": [
           "Defillama"
         ],
@@ -4151,7 +4151,7 @@
     "/api/defillama/dex-overview": {
       "post": {
         "operationId": "defillama_dex-overview",
-        "summary": "Get DEX volume overview",
+        "summary": "Get DEX volume overview (defillama dex-overview)",
         "tags": [
           "Defillama"
         ],
@@ -5136,7 +5136,7 @@
     "/api/defillama/forks": {
       "post": {
         "operationId": "defillama_forks",
-        "summary": "Get protocol fork data",
+        "summary": "Get protocol fork data (defillama forks)",
         "tags": [
           "Defillama"
         ],
@@ -7081,7 +7081,7 @@
     "/api/alchemy/node/rpc": {
       "post": {
         "operationId": "alchemy_node_rpc",
-        "summary": "Generic JSON-RPC passthrough for standard Ethereum methods (eth_blockNumber, eth_getBalance, etc.)",
+        "summary": "Generic JSON-RPC passthrough for standard Ethereum methods",
         "tags": [
           "Alchemy"
         ],
@@ -7151,7 +7151,7 @@
     "/api/etherscan/account/balance": {
       "post": {
         "operationId": "etherscan_account_balance",
-        "summary": "ETH balance for address",
+        "summary": "ETH balance for address (etherscan account balance)",
         "tags": [
           "Etherscan"
         ],
@@ -8046,7 +8046,7 @@
     "/api/etherscan/block/getblockreward": {
       "post": {
         "operationId": "etherscan_block_getblockreward",
-        "summary": "Block and uncle rewards",
+        "summary": "Block and uncle rewards (etherscan block getblockreward)",
         "tags": [
           "Etherscan"
         ],
@@ -8558,7 +8558,7 @@
     "/api/etherscan/stats/ethsupply": {
       "post": {
         "operationId": "etherscan_stats_ethsupply",
-        "summary": "Total ETH supply",
+        "summary": "Total ETH supply (etherscan stats ethsupply)",
         "tags": [
           "Etherscan"
         ],
@@ -8618,7 +8618,7 @@
     "/api/etherscan/stats/nodecount": {
       "post": {
         "operationId": "etherscan_stats_nodecount",
-        "summary": "Ethereum node count",
+        "summary": "Ethereum node count (etherscan stats nodecount)",
         "tags": [
           "Etherscan"
         ],
@@ -8678,7 +8678,7 @@
     "/api/etherscan/stats/chainsize": {
       "post": {
         "operationId": "etherscan_stats_chainsize",
-        "summary": "Historical chain size",
+        "summary": "Historical chain size (etherscan stats chainsize)",
         "tags": [
           "Etherscan"
         ],
@@ -8769,7 +8769,7 @@
     "/api/etherscan/stats/dailytx": {
       "post": {
         "operationId": "etherscan_stats_dailytx",
-        "summary": "Daily transaction count",
+        "summary": "Daily transaction count (etherscan stats dailytx)",
         "tags": [
           "Etherscan"
         ],

@@ -695,7 +695,7 @@
         "tags": [
           "Search"
         ],
-        "summary": "Search products",
+        "summary": "Search products (x402 search)",
         "description": "Search for products using structured filters. Returns paginated results from Amazon and Shopify.",
         "parameters": [
           {
@@ -889,7 +889,7 @@
         "tags": [
           "Shop"
         ],
-        "summary": "AI shopping assistant",
+        "summary": "AI shopping assistant (x402 shop)",
         "description": "Natural language product search powered by AI. Describe what you're looking for and get personalized recommendations.",
         "requestBody": {
           "required": true,
@@ -1198,7 +1198,7 @@
         "tags": [
           "Vault"
         ],
-        "summary": "Search vault items",
+        "summary": "Search vault items (x402 vault search)",
         "description": "Search for AI skills, knowledge bases, and personas in the Purch Vault. Filter by category, product type, and price range. Returns cursor-paginated results.",
         "parameters": [
           {

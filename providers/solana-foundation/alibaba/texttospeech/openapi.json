@@ -103,7 +103,7 @@
             "description": "Successful synthesis response."
           }
         },
-        "summary": "Synthesize speech",
+        "summary": "Synthesize speech (alibaba text To Speech generate)",
         "tags": [
           "multimodal.generation"
         ]

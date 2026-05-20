@@ -824,7 +824,8 @@
         },
         "tags": [
           "jobs"
-        ]
+        ],
+        "summary": "Runs a BigQuery SQL query synchronously and returns query"
       }
     },
     "/projects/{projectId}/queries/{jobId}": {

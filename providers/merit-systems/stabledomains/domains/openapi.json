@@ -358,7 +358,7 @@
     "/api/domain/list": {
       "get": {
         "operationId": "domain_list",
-        "summary": "domain/list",
+        "summary": "domain/list (domain list)",
         "tags": [
           "Domain"
         ],
@@ -380,7 +380,7 @@
     "/api/domain/status": {
       "get": {
         "operationId": "domain_status",
-        "summary": "domain/status",
+        "summary": "domain/status (domain status)",
         "tags": [
           "Domain"
         ],
@@ -413,7 +413,7 @@
     "/api/domain/dns": {
       "get": {
         "operationId": "domain_dns",
-        "summary": "domain/dns",
+        "summary": "domain/dns (api domain dns)",
         "tags": [
           "Domain"
         ],
@@ -444,7 +444,7 @@
       },
       "post": {
         "operationId": "domain_dns",
-        "summary": "domain/dns",
+        "summary": "domain/dns (api domain dns)",
         "tags": [
           "Domain"
         ],
@@ -524,7 +524,7 @@
     "/api/domain/transfer-out": {
       "post": {
         "operationId": "domain_transfer-out",
-        "summary": "domain/transfer-out",
+        "summary": "domain/transfer-out (domain transfer-out)",
         "tags": [
           "Domain"
         ],

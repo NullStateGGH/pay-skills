@@ -850,7 +850,8 @@
         },
         "tags": [
           "speech"
-        ]
+        ],
+        "summary": "Performs synchronous speech recognition: receive results after"
       }
     }
   },

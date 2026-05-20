@@ -31,7 +31,7 @@
     "/api/shirt": {
       "post": {
         "operationId": "shirt",
-        "summary": "Custom shirt from your image. Base price: $20. Commission (if provided) is added on top.",
+        "summary": "Custom shirt from your image",
         "tags": [
           "Shirt"
         ],
@@ -253,7 +253,7 @@
     "/api/heavyweight-shirt": {
       "post": {
         "operationId": "heavyweight-shirt",
-        "summary": "Custom heavyweight shirt (Shaka Wear SHMHSS) from your image. 7.5oz USA cotton, oversized/relaxed fit, 22 colors, sizes S-7XL. Base price: $25. Commission (if provided) is added on top.",
+        "summary": "Custom heavyweight shirt (Shaka Wear SHMHSS) from your image",
         "tags": [
           "Heavyweight Shirt"
         ],
@@ -504,7 +504,7 @@
     "/api/mug": {
       "post": {
         "operationId": "mug",
-        "summary": "Custom mug from your image. Base price: $15. Commission (if provided) is added on top.",
+        "summary": "Custom mug from your image",
         "tags": [
           "Mug"
         ],

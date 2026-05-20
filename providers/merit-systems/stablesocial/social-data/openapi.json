@@ -1816,7 +1816,7 @@
     "/api/jobs": {
       "get": {
         "operationId": "jobs",
-        "summary": "Poll job status and retrieve results. Requires SIWX wallet auth — only the wallet that paid can poll.",
+        "summary": "Poll job status and retrieve results",
         "tags": [
           "Jobs"
         ],

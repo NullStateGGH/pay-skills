@@ -178,7 +178,7 @@
     "/api/site": {
       "post": {
         "operationId": "site",
-        "summary": "Buy a site upload slot. Upload a zip file, then activate to extract and serve as a static site.",
+        "summary": "Buy a site upload slot. Upload a zip file, then activate to",
         "tags": [
           "Site"
         ],
@@ -312,7 +312,7 @@
       },
       "put": {
         "operationId": "site",
-        "summary": "Get a new upload URL for an existing site. Upload a new zip, then call POST /api/site/activate to re-extract.",
+        "summary": "Get a new upload URL for an existing site",
         "tags": [
           "Site"
         ],
@@ -410,7 +410,7 @@
     "/api/uploads": {
       "get": {
         "operationId": "uploads",
-        "summary": "List upload metadata for the authenticated wallet, newest first. Use nextCursor for pagination.",
+        "summary": "List upload metadata for the authenticated wallet, newest first",
         "tags": [
           "Uploads"
         ],
@@ -736,7 +736,7 @@
     "/api/site/renew": {
       "post": {
         "operationId": "site_renew",
-        "summary": "Renew a site for count x the original tier retention window. Price = tier price x count.",
+        "summary": "Renew a site for count x the original tier retention window",
         "tags": [
           "Site"
         ],
@@ -837,7 +837,7 @@
     "/api/site/activate": {
       "post": {
         "operationId": "site_activate",
-        "summary": "Activate an uploaded zip site. Extracts the current source zip and makes the site live; already-live sites require a newly uploaded replacement zip.",
+        "summary": "Activate an uploaded zip site",
         "tags": [
           "Site"
         ],
@@ -906,7 +906,7 @@
     "/api/site/domain": {
       "post": {
         "operationId": "site_domain",
-        "summary": "Connect a custom domain to a site. Creates TLS cert and routes the hostname to the site.",
+        "summary": "Connect a custom domain to a site",
         "tags": [
           "Site"
         ],
@@ -1064,7 +1064,7 @@
     "/api/site/domain/preview": {
       "get": {
         "operationId": "site_domain_preview",
-        "summary": "Preview the DNS records required for a custom domain. Set these before POST /api/site/domain for instant SSL.",
+        "summary": "Preview the DNS records required for a custom domain",
         "tags": [
           "Site"
         ],
@@ -1133,7 +1133,7 @@
     "/api/site/domain/status": {
       "get": {
         "operationId": "site_domain_status",
-        "summary": "Check TLS provisioning status for a custom domain. Poll until ssl is 'active'.",
+        "summary": "Check TLS provisioning status for a custom domain",
         "tags": [
           "Site"
         ],

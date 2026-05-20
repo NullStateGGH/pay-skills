@@ -16,7 +16,7 @@
   "paths": {
     "/api/v1/location/:locationId/details": {
       "get": {
-        "summary": "GET /api/v1/location/:locationId/details",
+        "summary": "Get api v1 location locationId details",
         "x-agentcash-auth": {
           "mode": "paid"
         },
@@ -137,7 +137,7 @@
     },
     "/api/v1/location/:locationId/photos": {
       "get": {
-        "summary": "GET /api/v1/location/:locationId/photos",
+        "summary": "Get api v1 location locationId photos",
         "x-agentcash-auth": {
           "mode": "paid"
         },
@@ -258,7 +258,7 @@
     },
     "/api/v1/location/:locationId/reviews": {
       "get": {
-        "summary": "GET /api/v1/location/:locationId/reviews",
+        "summary": "Get api v1 location locationId reviews",
         "x-agentcash-auth": {
           "mode": "paid"
         },
@@ -379,7 +379,7 @@
     },
     "/api/v1/location/nearby_search": {
       "get": {
-        "summary": "GET /api/v1/location/nearby_search",
+        "summary": "Get api v1 location nearby search",
         "x-agentcash-auth": {
           "mode": "paid"
         },
@@ -462,7 +462,7 @@
     },
     "/api/v1/location/search": {
       "get": {
-        "summary": "GET /api/v1/location/search",
+        "summary": "Get api v1 location search",
         "x-agentcash-auth": {
           "mode": "paid"
         },

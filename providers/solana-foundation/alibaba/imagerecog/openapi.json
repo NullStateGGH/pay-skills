@@ -229,7 +229,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Element Detection"
+        "summary": "Element Detection (alibaba imagerecog Detect Image Elements)"
       }
     },
     "/evaluate-certificate-quality": {
@@ -432,7 +432,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Dish Recognition"
+        "summary": "Dish Recognition (alibaba imagerecog Recognize Food)"
       }
     },
     "/recognize-image-color": {
@@ -537,7 +537,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Color Recognition"
+        "summary": "Color Recognition (alibaba imagerecog Recognize Image Color)"
       }
     },
     "/recognize-image-style": {
@@ -618,7 +618,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Style Detection"
+        "summary": "Style Detection (alibaba imagerecog Recognize Image Style)"
       }
     },
     "/recognize-scene": {
@@ -711,7 +711,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Scenario Recognition"
+        "summary": "Scenario Recognition (alibaba imagerecog Recognize Scene)"
       }
     },
     "/tagging-ad-image": {
@@ -795,7 +795,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Ad Material Analysis"
+        "summary": "Ad Material Analysis (alibaba imagerecog Tagging Ad Image)"
       }
     },
     "/tagging-image": {
@@ -890,7 +890,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "General Image Tagging"
+        "summary": "General Image Tagging (alibaba imagerecog Tagging Image)"
       }
     }
   },

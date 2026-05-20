@@ -24,7 +24,7 @@
   "paths": {
     "/api": {
       "get": {
-        "summary": "Api Info",
+        "summary": "Api Info (api info api get)",
         "operationId": "api_info_api_get",
         "responses": {
           "200": {
@@ -40,7 +40,7 @@
     },
     "/health": {
       "get": {
-        "summary": "Health",
+        "summary": "Health (health health get)",
         "operationId": "health_health_get",
         "responses": {
           "200": {
@@ -56,7 +56,7 @@
     },
     "/v1/search": {
       "get": {
-        "summary": "Search Instagram Influencers — pay per request with USDC",
+        "summary": "Search Instagram Influencers - pay per request with USDC",
         "description": "Search Instagram influencers by keyword, category, demographics, or location.\n\nReturns up to 100 influencer profiles per request. Each result includes username,\nfollower count, bio, category, and business email (when available).\n\n**Dynamic pricing:** $0.50 for up to 20 results, +$0.01 per result above 20.\nExamples: 20 results = $0.50, 50 results = $0.80, 100 results = $1.30.\n\n**Free demo:** Add `demo=true` to try the API with no payment. Returns up to 3 results,\nno USDC required. Rate limited to 5 requests per hour per IP.\n\nPayment via x402 (USDC on Base or Solana). No API keys required.",
         "operationId": "search_leads_v1_search_get",
         "parameters": [
@@ -402,7 +402,7 @@
         }
       },
       "post": {
-        "summary": "Search Instagram Influencers — pay per request with USDC (JSON body)",
+        "summary": "Search Instagram Influencers - pay per request with USDC (JSON",
         "description": "Search Instagram influencers via JSON body (POST). Same as GET /v1/search.\n\nAccepts all the same parameters as query params but as a JSON body — useful\nfor programmatic clients and complex filter combinations.\n\n**Dynamic pricing:** $0.50 for up to 20 results, +$0.01 per result above 20.\nPayment via x402 (USDC on Base or Solana). No API keys required.",
         "operationId": "search_leads_post_v1_search_post",
         "requestBody": {
@@ -574,7 +574,7 @@
     },
     "/v1/search/free": {
       "get": {
-        "summary": "Search Instagram Influencers — free preview, up to 3 results",
+        "summary": "Search Instagram Influencers - free preview, up to 3 results",
         "description": "Free preview: returns up to 3 influencer profiles. No payment required.\n\nRate-limited to 10 requests per hour per IP. For full results (up to 100),\nuse GET /v1/search with x402 payment (USDC on Base or Solana, ~$0.50/request).",
         "operationId": "search_leads_free_v1_search_free_get",
         "parameters": [
@@ -713,7 +713,7 @@
     },
     "/v1/search/demo": {
       "get": {
-        "summary": "Homepage hero demo — cache-only, up to 5 rows with blurred emails",
+        "summary": "Homepage hero demo - cache-only, up to 5 rows with blurred",
         "description": "Homepage hero endpoint. Cache-only — never calls DataLikers, never\ncharges the caller. Returns up to 5 cached rows that ALL have a public\nemail (filter is enforced at the SQL layer). Emails are partially\nredacted by ``cache.get_cached_results`` so full emails never escape\nthis path; the paid ``/v1/search`` endpoint opts into raw emails\nexplicitly after x402 settlement.\n\nSchema is enforced by ``DemoSearchResponse`` — any extra field the\ncache returns is stripped before serialization. Rate-limited per IP.",
         "operationId": "search_leads_hero_demo_v1_search_demo_get",
         "parameters": [
@@ -857,7 +857,7 @@
         "tags": [
           "lookup"
         ],
-        "summary": "Lookup one Instagram profile — pay $0.01 USDC per profile",
+        "summary": "Lookup one Instagram profile - pay $0.01 USDC per profile",
         "description": "Look up one public Instagram profile by username.\n\nReturns bio, follower count, business category, redacted email, and basic\nprofile metadata. **Email is partially redacted** (`fo***@domain.com`); use\n`/v1/search` to get raw emails for outreach lists.\n\n**Pricing:** $0.01 USDC per request, regardless of cache hit or miss.\nPay via x402 on Base, Solana, Polygon, or Arbitrum. No API keys.\n\nCommon usage: enrich a list of usernames you scraped or already know about.",
         "operationId": "get_user_profile_v1_user__username__get",
         "parameters": [
@@ -907,7 +907,7 @@
         "tags": [
           "contact"
         ],
-        "summary": "Contact Info",
+        "summary": "Contact Info (contact info v1 contact get)",
         "description": "How to reach us — for agents and humans.\n\nReturns contact methods and instructions for submitting an inquiry.\nUse POST /v1/contact to send a message directly.",
         "operationId": "contact_info_v1_contact_get",
         "responses": {
@@ -925,7 +925,7 @@
         "tags": [
           "contact"
         ],
-        "summary": "Submit Inquiry",
+        "summary": "Submit Inquiry (submit inquiry v1 contact post)",
         "description": "Tell us what you need — we solve any data problem.\n\nFree endpoint. No payment required. Describe what data or API capability\nyou're looking for, and we'll get back to you. Ideal for agents that\nhit the payment wall but want to explore options first.\n\nWe can build custom data feeds, add new filters, adjust pricing,\nor connect you with the right data source for your use case.",
         "operationId": "submit_inquiry_v1_contact_post",
         "requestBody": {

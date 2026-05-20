@@ -55,7 +55,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Medical Q&A"
+        "summary": "Medical Q&A (alibaba iqs Medical Answer)"
       }
     },
     "/linked-retrieval/linked-retrieval-entry/v1/iqs/domain/medical/know": {
@@ -107,7 +107,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Health Graph"
+        "summary": "Health Graph (alibaba iqs Medical Knowledge)"
       }
     },
     "/linked-retrieval/linked-retrieval-entry/v1/iqs/multimodal/unified": {
@@ -159,7 +159,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Multimodal search"
+        "summary": "Multimodal search (alibaba iqs Multimodal Search)"
       }
     },
     "/linked-retrieval/linked-retrieval-entry/v1/iqs/readpage/basic": {
@@ -229,7 +229,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Static Page Parsing"
+        "summary": "Static Page Parsing (alibaba iqs Read Page Basic)"
       }
     },
     "/linked-retrieval/linked-retrieval-entry/v1/iqs/readpage/scrape": {
@@ -302,7 +302,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Web Page Parsing"
+        "summary": "Web Page Parsing (alibaba iqs Read Page Scrape)"
       }
     },
     "/linked-retrieval/linked-retrieval-entry/v1/iqs/search/global": {
@@ -529,7 +529,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Enhanced Search API"
+        "summary": "Enhanced Search API (alibaba iqs Generic Advanced Search)"
       }
     },
     "/linked-retrieval/linked-retrieval-entry/v2/linkedRetrieval/commands/genericSearch": {
@@ -682,7 +682,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "General Search"
+        "summary": "General Search (alibaba iqs Generic Search)"
       }
     }
   },

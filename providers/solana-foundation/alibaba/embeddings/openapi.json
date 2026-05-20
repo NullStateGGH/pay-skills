@@ -172,7 +172,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Create embeddings",
+        "summary": "Create embeddings (alibaba embeddings create)",
         "tags": [
           "embeddings"
         ]

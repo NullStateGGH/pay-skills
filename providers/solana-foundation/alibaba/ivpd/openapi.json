@@ -105,7 +105,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Resize Image"
+        "summary": "Resize Image (alibaba ivpd Change Image Size)"
       }
     },
     "/detect-image-elements": {
@@ -232,7 +232,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "element detection"
+        "summary": "element detection (alibaba ivpd Detect Image Elements)"
       }
     },
     "/extend-image-style": {
@@ -329,7 +329,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Style Transfer"
+        "summary": "Style Transfer (alibaba ivpd Extend Image Style)"
       }
     },
     "/make-super-resolution-image": {
@@ -527,7 +527,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Color Palette Detection"
+        "summary": "Color Palette Detection (alibaba ivpd Recognize Image Color)"
       }
     },
     "/recognize-image-style": {
@@ -617,7 +617,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Style Recognition"
+        "summary": "Style Recognition (alibaba ivpd Recognize Image Style)"
       }
     },
     "/recolor-image": {
@@ -815,7 +815,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "SegmentBody"
+        "summary": "SegmentBody (alibaba ivpd Segment Body)"
       }
     },
     "/segment-image": {

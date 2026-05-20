@@ -99,7 +99,7 @@
     "v1": {
       "methods": {
         "validateAddress": {
-          "description": "Validates an address.",
+          "description": "Validates an address. (v1:validateAddress)",
           "flatPath": "v1:validateAddress",
           "httpMethod": "POST",
           "id": "addressvalidation.validateAddress",

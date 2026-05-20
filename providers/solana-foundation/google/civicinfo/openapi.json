@@ -871,7 +871,8 @@
         },
         "tags": [
           "divisions"
-        ]
+        ],
+        "summary": "Searches for political divisions by their natural name or OCD"
       },
       "parameters": [
         {
@@ -1036,7 +1037,8 @@
         },
         "tags": [
           "elections"
-        ]
+        ],
+        "summary": "Looks up information relevant to a voter based on the voter's"
       },
       "parameters": [
         {

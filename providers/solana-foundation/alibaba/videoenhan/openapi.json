@@ -107,7 +107,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Video Rendering Intent"
+        "summary": "Video Rendering Intent (alibaba videoenhan Adjust Video Color)"
       }
     },
     "/change-video-size": {
@@ -563,7 +563,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Video Logo Removal"
+        "summary": "Video Logo Removal (alibaba videoenhan Erase Video Logo)"
       }
     },
     "/erase-video-subtitles": {
@@ -670,7 +670,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Video Caption Removal"
+        "summary": "Video Caption Removal (alibaba videoenhan Erase Video"
       }
     },
     "/generate-human-anime-style-video": {
@@ -1111,7 +1111,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Video Ultra HD"
+        "summary": "Video Ultra HD (alibaba videoenhan Super Resolve Video)"
       }
     }
   },

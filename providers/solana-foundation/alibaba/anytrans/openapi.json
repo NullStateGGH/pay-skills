@@ -291,7 +291,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Batch Text Translation"
+        "summary": "Batch Text Translation (alibaba anytrans Batch Translate)"
       }
     },
     "/anytrans/translate/batchForHtml": {
@@ -841,7 +841,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Text Translation API"
+        "summary": "Text Translation API (alibaba anytrans Text Translate)"
       }
     }
   },

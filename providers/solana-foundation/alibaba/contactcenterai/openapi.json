@@ -489,7 +489,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Image Content Analysis"
+        "summary": "Image Content Analysis (alibaba contactcenterai Analyze Image)"
       }
     },
     "/{workspaceId}/ccai/app/{appId}/analyze_conversation": {
@@ -905,7 +905,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Invoke the Tongyi Xiaomi CCAI - Conversation Analysis AIO application by task type"
+        "summary": "Invoke the Tongyi Xiaomi CCAI - Conversation Analysis AIO"
       }
     },
     "/{workspaceId}/ccai/app/{appId}/completion": {
@@ -1253,7 +1253,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Invoke the Tongyi Xiaomi CCAI-Dialogue Analysis AIO application by template ID"
+        "summary": "Invoke the Tongyi Xiaomi CCAI-Dialogue Analysis AIO"
       }
     },
     "/{workspaceId}/ccai/app/{appId}/completion_message": {
@@ -1409,7 +1409,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "Invoke the Tongyi Xiaomi CCAI-Dialogue Analysis AIO application using a native prompt"
+        "summary": "Invoke the Tongyi Xiaomi CCAI-Dialogue Analysis AIO"
       }
     },
     "/{workspaceId}/ccai/app/{appId}/generalanalyzeImage": {
@@ -1560,7 +1560,7 @@
             "description": "Invalid request."
           }
         },
-        "summary": "General Image Analysis"
+        "summary": "General Image Analysis (alibaba contactcenterai General"
       }
     }
   },

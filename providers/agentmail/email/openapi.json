@@ -12,7 +12,7 @@
         "tags": [
           "subpackage_pods"
         ],
-        "summary": "List Pods",
+        "summary": "List Pods (v0 pods endpoint)",
         "responses": {
           "200": {
             "content": {
@@ -154,7 +154,7 @@
         "tags": [
           "subpackage_pods"
         ],
-        "summary": "Create Pod",
+        "summary": "Create Pod (post v0 pods)",
         "responses": {
           "200": {
             "content": {
@@ -275,7 +275,7 @@
         "tags": [
           "subpackage_drafts"
         ],
-        "summary": "List Drafts",
+        "summary": "List Drafts (get v0 drafts)",
         "responses": {
           "200": {
             "content": {
@@ -462,7 +462,7 @@
         "tags": [
           "subpackage_domains"
         ],
-        "summary": "List Domains",
+        "summary": "List Domains (v0 domains)",
         "responses": {
           "200": {
             "content": {
@@ -604,7 +604,7 @@
         "tags": [
           "subpackage_domains"
         ],
-        "summary": "Create Domain",
+        "summary": "Create Domain (v0 domains)",
         "responses": {
           "200": {
             "content": {
@@ -725,7 +725,7 @@
         "tags": [
           "subpackage_inboxes"
         ],
-        "summary": "List Inboxes",
+        "summary": "List Inboxes (v0 inboxes)",
         "responses": {
           "200": {
             "content": {
@@ -867,7 +867,7 @@
         "tags": [
           "subpackage_inboxes"
         ],
-        "summary": "Create Inbox",
+        "summary": "Create Inbox (v0 inboxes)",
         "responses": {
           "200": {
             "content": {
@@ -988,7 +988,7 @@
         "tags": [
           "subpackage_metrics"
         ],
-        "summary": "Query Metrics",
+        "summary": "Query Metrics (v0 metrics)",
         "responses": {
           "200": {
             "content": {
@@ -1175,7 +1175,7 @@
         "tags": [
           "subpackage_threads"
         ],
-        "summary": "List Threads",
+        "summary": "List Threads (v0 threads)",
         "responses": {
           "200": {
             "content": {
@@ -1395,7 +1395,7 @@
         "tags": [
           "subpackage_webhooks"
         ],
-        "summary": "List Webhooks",
+        "summary": "List Webhooks (v0 webhooks)",
         "responses": {
           "200": {
             "content": {
@@ -1537,7 +1537,7 @@
         "tags": [
           "subpackage_webhooks"
         ],
-        "summary": "Create Webhook",
+        "summary": "Create Webhook (v0 webhooks)",
         "responses": {
           "200": {
             "content": {
@@ -1658,7 +1658,7 @@
         "tags": [
           "subpackage_pods"
         ],
-        "summary": "Get Pod",
+        "summary": "Get Pod (v0 pods endpoint)",
         "responses": {
           "200": {
             "content": {
@@ -1827,7 +1827,7 @@
         "tags": [
           "subpackage_pods"
         ],
-        "summary": "Delete Pod",
+        "summary": "Delete Pod (delete v0 pods)",
         "responses": {
           "200": {
             "description": "Successful response"
@@ -1992,7 +1992,7 @@
         "tags": [
           "subpackage_drafts"
         ],
-        "summary": "Get Draft",
+        "summary": "Get Draft (get v0 drafts)",
         "responses": {
           "200": {
             "content": {
@@ -2163,7 +2163,7 @@
         "tags": [
           "subpackage_inboxes"
         ],
-        "summary": "Get Inbox",
+        "summary": "Get Inbox (get v0 inboxes)",
         "responses": {
           "200": {
             "content": {
@@ -2332,7 +2332,7 @@
         "tags": [
           "subpackage_inboxes"
         ],
-        "summary": "Update Inbox",
+        "summary": "Update Inbox (v0 inboxes)",
         "responses": {
           "200": {
             "content": {
@@ -2497,7 +2497,7 @@
         "tags": [
           "subpackage_inboxes"
         ],
-        "summary": "Delete Inbox",
+        "summary": "Delete Inbox (v0 inboxes)",
         "responses": {
           "200": {
             "description": "Successful response"
@@ -2662,7 +2662,7 @@
         "tags": [
           "subpackage_domains"
         ],
-        "summary": "Get Domain",
+        "summary": "Get Domain (get v0 domains)",
         "responses": {
           "200": {
             "content": {
@@ -2831,7 +2831,7 @@
         "tags": [
           "subpackage_domains"
         ],
-        "summary": "Update Domain",
+        "summary": "Update Domain (v0 domains)",
         "responses": {
           "200": {
             "content": {
@@ -2996,7 +2996,7 @@
         "tags": [
           "subpackage_domains"
         ],
-        "summary": "Delete Domain",
+        "summary": "Delete Domain (v0 domains)",
         "responses": {
           "200": {
             "description": "Successful response"
@@ -3161,7 +3161,7 @@
         "tags": [
           "subpackage_threads"
         ],
-        "summary": "Get Thread",
+        "summary": "Get Thread (get v0 threads)",
         "responses": {
           "200": {
             "content": {
@@ -3330,7 +3330,7 @@
         "tags": [
           "subpackage_threads"
         ],
-        "summary": "Delete Thread",
+        "summary": "Delete Thread (v0 threads)",
         "responses": {
           "200": {
             "description": "Successful response"
@@ -3508,7 +3508,7 @@
         "tags": [
           "subpackage_pods.subpackage_pods/drafts"
         ],
-        "summary": "List Drafts",
+        "summary": "List Drafts (pods drafts)",
         "responses": {
           "200": {
             "content": {
@@ -3745,7 +3745,7 @@
         "tags": [
           "subpackage_pods.subpackage_pods/domains"
         ],
-        "summary": "List Domains",
+        "summary": "List Domains (pods domains)",
         "responses": {
           "200": {
             "content": {
@@ -3947,7 +3947,7 @@
         "tags": [
           "subpackage_pods.subpackage_pods/domains"
         ],
-        "summary": "Create Domain",
+        "summary": "Create Domain (pods domains)",
         "responses": {
           "200": {
             "content": {
@@ -4114,7 +4114,7 @@
         "tags": [
           "subpackage_pods.subpackage_pods/inboxes"
         ],
-        "summary": "List Inboxes",
+        "summary": "List Inboxes (pods inboxes)",
         "responses": {
           "200": {
             "content": {
@@ -4316,7 +4316,7 @@
         "tags": [
           "subpackage_pods.subpackage_pods/inboxes"
         ],
-        "summary": "Create Inbox",
+        "summary": "Create Inbox (pods inboxes)",
         "responses": {
           "200": {
             "content": {
@@ -4483,7 +4483,7 @@
         "tags": [
           "subpackage_pods.subpackage_pods/metrics"
         ],
-        "summary": "Query Metrics",
+        "summary": "Query Metrics (pods metrics)",
         "responses": {
           "200": {
             "content": {
@@ -4720,7 +4720,7 @@
         "tags": [
           "subpackage_pods.subpackage_pods/threads"
         ],
-        "summary": "List Threads",
+        "summary": "List Threads (pods threads)",
         "responses": {
           "200": {
             "content": {
@@ -4990,7 +4990,7 @@
         "tags": [
           "subpackage_webhooks"
         ],
-        "summary": "Get Webhook",
+        "summary": "Get Webhook (v0 webhooks)",
         "responses": {
           "200": {
             "content": {
@@ -5159,7 +5159,7 @@
         "tags": [
           "subpackage_webhooks"
         ],
-        "summary": "Update Webhook",
+        "summary": "Update Webhook (v0 webhooks)",
         "responses": {
           "200": {
             "content": {
@@ -5334,7 +5334,7 @@
         "tags": [
           "subpackage_webhooks"
         ],
-        "summary": "Delete Webhook",
+        "summary": "Delete Webhook (v0 webhooks)",
         "responses": {
           "200": {
             "description": "Successful response"
@@ -5499,7 +5499,7 @@
         "tags": [
           "subpackage_lists"
         ],
-        "summary": "List Entries",
+        "summary": "List Entries (get lists)",
         "responses": {
           "200": {
             "content": {
@@ -5697,7 +5697,7 @@
         "tags": [
           "subpackage_lists"
         ],
-        "summary": "Create List Entry",
+        "summary": "Create List Entry (lists)",
         "responses": {
           "200": {
             "content": {
@@ -5877,7 +5877,7 @@
         "tags": [
           "subpackage_inboxes.subpackage_inboxes/drafts"
         ],
-        "summary": "List Drafts",
+        "summary": "List Drafts (inboxes drafts)",
         "responses": {
           "200": {
             "content": {
@@ -6112,7 +6112,7 @@
         "tags": [
           "subpackage_inboxes.subpackage_inboxes/drafts"
         ],
-        "summary": "Create Draft",
+        "summary": "Create Draft (inboxes drafts)",
         "responses": {
           "200": {
             "content": {
@@ -6279,7 +6279,7 @@
         "tags": [
           "subpackage_domains"
         ],
-        "summary": "Verify Domain",
+        "summary": "Verify Domain (domains verify)",
         "responses": {
           "200": {
             "description": "Successful response"
@@ -6444,7 +6444,7 @@
         "tags": [
           "subpackage_inboxes.subpackage_inboxes/metrics"
         ],
-        "summary": "Query Metrics",
+        "summary": "Query Metrics (inboxes metrics)",
         "responses": {
           "200": {
             "content": {
@@ -6681,7 +6681,7 @@
         "tags": [
           "subpackage_inboxes.subpackage_inboxes/threads"
         ],
-        "summary": "List Threads",
+        "summary": "List Threads (inboxes threads)",
         "responses": {
           "200": {
             "content": {
@@ -6951,7 +6951,7 @@
         "tags": [
           "subpackage_inboxes.subpackage_inboxes/messages"
         ],
-        "summary": "List Messages",
+        "summary": "List Messages (inboxes messages)",
         "responses": {
           "200": {
             "content": {
@@ -7221,7 +7221,7 @@
         "tags": [
           "subpackage_domains"
         ],
-        "summary": "Get Zone File",
+        "summary": "Get Zone File (get-zone-file)",
         "responses": {
           "200": {
             "content": {
@@ -7394,7 +7394,7 @@
         "tags": [
           "subpackage_pods.subpackage_pods/drafts"
         ],
-        "summary": "Get Draft",
+        "summary": "Get Draft (v0 pods drafts)",
         "responses": {
           "200": {
             "content": {
@@ -7582,7 +7582,7 @@
         "tags": [
           "subpackage_inboxes.subpackage_inboxes/messages"
         ],
-        "summary": "Send Message",
+        "summary": "Send Message (messages send)",
         "responses": {
           "200": {
             "content": {
@@ -7769,7 +7769,7 @@
         "tags": [
           "subpackage_lists"
         ],
-        "summary": "Get List Entry",
+        "summary": "Get List Entry (v0 lists)",
         "responses": {
           "200": {
             "content": {
@@ -7973,7 +7973,7 @@
         "tags": [
           "subpackage_lists"
         ],
-        "summary": "Delete List Entry",
+        "summary": "Delete List Entry (v0 lists)",
         "responses": {
           "200": {
             "description": "Successful response"
@@ -8173,7 +8173,7 @@
         "tags": [
           "subpackage_pods.subpackage_pods/inboxes"
         ],
-        "summary": "Get Inbox",
+        "summary": "Get Inbox (v0 pods inboxes)",
         "responses": {
           "200": {
             "content": {
@@ -8359,7 +8359,7 @@
         "tags": [
           "subpackage_pods.subpackage_pods/inboxes"
         ],
-        "summary": "Update Inbox",
+        "summary": "Update Inbox (patch inboxes)",
         "responses": {
           "200": {
             "content": {
@@ -8537,7 +8537,7 @@
         "tags": [
           "subpackage_pods.subpackage_pods/inboxes"
         ],
-        "summary": "Delete Inbox",
+        "summary": "Delete Inbox (delete inboxes)",
         "responses": {
           "200": {
             "description": "Successful response"
@@ -8719,7 +8719,7 @@
         "tags": [
           "subpackage_pods.subpackage_pods/domains"
         ],
-        "summary": "Get Domain",
+        "summary": "Get Domain (get domains)",
         "responses": {
           "200": {
             "content": {
@@ -8905,7 +8905,7 @@
         "tags": [
           "subpackage_pods.subpackage_pods/domains"
         ],
-        "summary": "Update Domain",
+        "summary": "Update Domain (patch domains)",
         "responses": {
           "200": {
             "content": {
@@ -9083,7 +9083,7 @@
         "tags": [
           "subpackage_pods.subpackage_pods/domains"
         ],
-        "summary": "Delete Domain",
+        "summary": "Delete Domain (delete domains)",
         "responses": {
           "200": {
             "description": "Successful response"
@@ -9265,7 +9265,7 @@
         "tags": [
           "subpackage_pods.subpackage_pods/threads"
         ],
-        "summary": "Get Thread",
+        "summary": "Get Thread (get threads)",
         "responses": {
           "200": {
             "content": {
@@ -9451,7 +9451,7 @@
         "tags": [
           "subpackage_pods.subpackage_pods/threads"
         ],
-        "summary": "Delete Thread",
+        "summary": "Delete Thread (delete threads)",
         "responses": {
           "200": {
             "description": "Successful response"
@@ -9646,7 +9646,7 @@
         "tags": [
           "subpackage_inboxes.subpackage_inboxes/drafts"
         ],
-        "summary": "Get Draft",
+        "summary": "Get Draft (v0 inboxes drafts)",
         "responses": {
           "200": {
             "content": {
@@ -9832,7 +9832,7 @@
         "tags": [
           "subpackage_inboxes.subpackage_inboxes/drafts"
         ],
-        "summary": "Update Draft",
+        "summary": "Update Draft (patch drafts)",
         "responses": {
           "200": {
             "content": {
@@ -10010,7 +10010,7 @@
         "tags": [
           "subpackage_inboxes.subpackage_inboxes/drafts"
         ],
-        "summary": "Delete Draft",
+        "summary": "Delete Draft (delete drafts)",
         "responses": {
           "200": {
             "description": "Successful response"
@@ -10192,7 +10192,7 @@
         "tags": [
           "subpackage_inboxes.subpackage_inboxes/threads"
         ],
-        "summary": "Get Thread",
+        "summary": "Get Thread (get threads)",
         "responses": {
           "200": {
             "content": {
@@ -10378,7 +10378,7 @@
         "tags": [
           "subpackage_inboxes.subpackage_inboxes/threads"
         ],
-        "summary": "Delete Thread",
+        "summary": "Delete Thread (delete threads)",
         "responses": {
           "200": {
             "description": "Successful response"
@@ -10573,7 +10573,7 @@
         "tags": [
           "subpackage_pods.subpackage_pods/lists"
         ],
-        "summary": "List Entries",
+        "summary": "List Entries (get lists)",
         "responses": {
           "200": {
             "content": {
@@ -10788,7 +10788,7 @@
         "tags": [
           "subpackage_pods.subpackage_pods/lists"
         ],
-        "summary": "Create List Entry",
+        "summary": "Create List Entry (lists)",
         "responses": {
           "200": {
             "content": {
@@ -10981,7 +10981,7 @@
         "tags": [
           "subpackage_inboxes.subpackage_inboxes/messages"
         ],
-        "summary": "Get Message",
+        "summary": "Get Message (get messages)",
         "responses": {
           "200": {
             "content": {
@@ -11167,7 +11167,7 @@
         "tags": [
           "subpackage_inboxes.subpackage_inboxes/messages"
         ],
-        "summary": "Update Message",
+        "summary": "Update Message (messages)",
         "responses": {
           "200": {
             "content": {
@@ -11357,7 +11357,7 @@
         "tags": [
           "subpackage_pods.subpackage_pods/domains"
         ],
-        "summary": "Verify Domain",
+        "summary": "Verify Domain (domains verify)",
         "responses": {
           "200": {
             "description": "Successful response"
@@ -11539,7 +11539,7 @@
         "tags": [
           "subpackage_inboxes.subpackage_inboxes/drafts"
         ],
-        "summary": "Send Draft",
+        "summary": "Send Draft (drafts send)",
         "responses": {
           "200": {
             "content": {
@@ -11739,7 +11739,7 @@
         "tags": [
           "subpackage_inboxes.subpackage_inboxes/lists"
         ],
-        "summary": "List Entries",
+        "summary": "List Entries (get lists)",
         "responses": {
           "200": {
             "content": {
@@ -11954,7 +11954,7 @@
         "tags": [
           "subpackage_inboxes.subpackage_inboxes/lists"
         ],
-        "summary": "Create List Entry",
+        "summary": "Create List Entry (lists)",
         "responses": {
           "200": {
             "content": {
@@ -12147,7 +12147,7 @@
         "tags": [
           "subpackage_pods.subpackage_pods/domains"
         ],
-        "summary": "Get Zone File",
+        "summary": "Get Zone File (get-zone-file)",
         "responses": {
           "200": {
             "content": {
@@ -12337,7 +12337,7 @@
         "tags": [
           "subpackage_inboxes.subpackage_inboxes/messages"
         ],
-        "summary": "Get Raw Message",
+        "summary": "Get Raw Message (get-raw)",
         "responses": {
           "200": {
             "content": {
@@ -12525,7 +12525,7 @@
         "tags": [
           "subpackage_drafts"
         ],
-        "summary": "Get Attachment",
+        "summary": "Get Attachment (get-attachment)",
         "responses": {
           "200": {
             "content": {
@@ -12713,7 +12713,7 @@
         "tags": [
           "subpackage_inboxes.subpackage_inboxes/messages"
         ],
-        "summary": "Reply To Message",
+        "summary": "Reply To Message (messages reply)",
         "responses": {
           "200": {
             "content": {
@@ -12913,7 +12913,7 @@
         "tags": [
           "subpackage_pods.subpackage_pods/lists"
         ],
-        "summary": "Get List Entry",
+        "summary": "Get List Entry (v0 pods lists)",
         "responses": {
           "200": {
             "content": {
@@ -13134,7 +13134,7 @@
         "tags": [
           "subpackage_pods.subpackage_pods/lists"
         ],
-        "summary": "Delete List Entry",
+        "summary": "Delete List Entry (v0 pods lists)",
         "responses": {
           "200": {
             "description": "Successful response"
@@ -13351,7 +13351,7 @@
         "tags": [
           "subpackage_threads"
         ],
-        "summary": "Get Attachment",
+        "summary": "Get Attachment (get-attachment)",
         "responses": {
           "200": {
             "content": {
@@ -13539,7 +13539,7 @@
         "tags": [
           "subpackage_inboxes.subpackage_inboxes/messages"
         ],
-        "summary": "Forward Message",
+        "summary": "Forward Message (messages forward)",
         "responses": {
           "200": {
             "content": {
@@ -13739,7 +13739,7 @@
         "tags": [
           "subpackage_inboxes.subpackage_inboxes/messages"
         ],
-        "summary": "Reply All Message",
+        "summary": "Reply All Message (reply-all)",
         "responses": {
           "200": {
             "content": {
@@ -13939,7 +13939,7 @@
         "tags": [
           "subpackage_inboxes.subpackage_inboxes/lists"
         ],
-        "summary": "Get List Entry",
+        "summary": "Get List Entry (v0 inboxes lists)",
         "responses": {
           "200": {
             "content": {
@@ -14160,7 +14160,7 @@
         "tags": [
           "subpackage_inboxes.subpackage_inboxes/lists"
         ],
-        "summary": "Delete List Entry",
+        "summary": "Delete List Entry (v0 inboxes lists)",
         "responses": {
           "200": {
             "description": "Successful response"
@@ -14377,7 +14377,7 @@
         "tags": [
           "subpackage_pods.subpackage_pods/drafts"
         ],
-        "summary": "Get Attachment",
+        "summary": "Get Attachment (get-attachment)",
         "responses": {
           "200": {
             "content": {
@@ -14582,7 +14582,7 @@
         "tags": [
           "subpackage_pods.subpackage_pods/threads"
         ],
-        "summary": "Get Attachment",
+        "summary": "Get Attachment (get-attachment)",
         "responses": {
           "200": {
             "content": {
@@ -14787,7 +14787,7 @@
         "tags": [
           "subpackage_inboxes.subpackage_inboxes/drafts"
         ],
-        "summary": "Get Attachment",
+        "summary": "Get Attachment (get-attachment)",
         "responses": {
           "200": {
             "content": {
@@ -14992,7 +14992,7 @@
         "tags": [
           "subpackage_inboxes.subpackage_inboxes/threads"
         ],
-        "summary": "Get Attachment",
+        "summary": "Get Attachment (get-attachment)",
         "responses": {
           "200": {
             "content": {
@@ -15197,7 +15197,7 @@
         "tags": [
           "subpackage_inboxes.subpackage_inboxes/messages"
         ],
-        "summary": "Get Attachment",
+        "summary": "Get Attachment (get-attachment)",
         "responses": {
           "200": {
             "content": {

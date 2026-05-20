@@ -16,7 +16,7 @@
   "paths": {
     "/animate": {
       "get": {
-        "summary": "GET /animate",
+        "summary": "Get animate (animate endpoint)",
         "x-agentcash-auth": {
           "mode": "paid"
         },
@@ -99,7 +99,7 @@
     },
     "/take": {
       "get": {
-        "summary": "GET /take",
+        "summary": "Get take (take endpoint)",
         "x-agentcash-auth": {
           "mode": "paid"
         },
@@ -180,7 +180,7 @@
         }
       },
       "post": {
-        "summary": "POST /take",
+        "summary": "Send take (take endpoint)",
         "x-agentcash-auth": {
           "mode": "paid"
         },

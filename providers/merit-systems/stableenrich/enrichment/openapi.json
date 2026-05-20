@@ -2175,7 +2175,7 @@
     "/api/apollo/people-enrich": {
       "post": {
         "operationId": "apollo_people-enrich",
-        "summary": "Apollo People Enrichment - Enrich single person by email/name/domain",
+        "summary": "Apollo People Enrichment - Enrich single person by",
         "tags": [
           "Apollo"
         ],
@@ -3578,7 +3578,7 @@
     "/api/apollo/org-enrich": {
       "post": {
         "operationId": "apollo_org-enrich",
-        "summary": "Apollo Organization Enrichment - Enrich single company by domain",
+        "summary": "Apollo Organization Enrichment - Enrich single company by",
         "tags": [
           "Apollo"
         ],
@@ -4019,7 +4019,7 @@
     "/api/clado/contacts-enrich": {
       "post": {
         "operationId": "clado_contacts-enrich",
-        "summary": "Clado Contacts Enrichment - Enrich contact info from LinkedIn URL, email, or phone",
+        "summary": "Clado Contacts Enrichment - Enrich contact info from LinkedIn",
         "tags": [
           "Clado"
         ],
@@ -5103,7 +5103,7 @@
     "/api/firecrawl/scrape": {
       "post": {
         "operationId": "firecrawl_scrape",
-        "summary": "Firecrawl Scrape - Scrape a URL with full JavaScript rendering. Use as a fallback when WebFetch returns empty/JS-only content or 403s.",
+        "summary": "Firecrawl Scrape - Scrape a URL with full JavaScript rendering",
         "tags": [
           "Firecrawl"
         ],
@@ -8419,7 +8419,7 @@
     "/api/google-maps/solar/building-insights": {
       "get": {
         "operationId": "google-maps_solar_building-insights",
-        "summary": "Google Solar API - Closest building roof insights including imageryDate",
+        "summary": "Google Solar API - Closest building roof insights including",
         "tags": [
           "Google Maps"
         ],
@@ -8622,7 +8622,7 @@
     "/api/google-maps/solar/data-layers": {
       "get": {
         "operationId": "google-maps_solar_data-layers",
-        "summary": "Google Solar API - Aerial GeoTIFF data layers (rgbUrl, dsmUrl, fluxUrl) with imageryDate",
+        "summary": "Google Solar API - Aerial GeoTIFF data layers (rgbUrl, dsmUrl",
         "tags": [
           "Google Maps"
         ],
@@ -8814,7 +8814,7 @@
     "/api/google-maps/solar/rgb-image": {
       "get": {
         "operationId": "google-maps_solar_rgb-image",
-        "summary": "Google Solar API - Render any GeoTIFF data layer (rgb, dsm, annualFlux, monthlyFlux, hourlyShade, mask) as a PNG/JPEG and return a JSON payload with a public `url` field. Fetch that `url` (e.g. `curl -O`) to download the rendered image; the rest of the response carries metadata (`contentType`, `width`, `height`, `layer`, `bands`, `renderMode`, `month?`, `hour?`, `imageryDate?`, `imageryQuality?`). Accepts either a GeoTIFF `id` (Mode A) or `latitude`/`longitude` (Mode B, which resolves the layer URL via dataLayers:get). For monthlyFlux pass `month` (1-12) for a single month, omit for a 4×3 grid. For hourlyShade pass `month` (required in Mode B) and optional `hour` (0-23); omit `hour` for a 6×4 grid.",
+        "summary": "Google Solar API - Render any GeoTIFF data layer (rgb, dsm",
         "tags": [
           "Google Maps"
         ],
@@ -8975,7 +8975,7 @@
     "/api/google-maps/aerial-view/lookup-video": {
       "get": {
         "operationId": "google-maps_aerial-view_lookup-video",
-        "summary": "Google Aerial View - Look up a previously rendered flyover video by address or videoId",
+        "summary": "Google Aerial View - Look up a previously rendered flyover",
         "tags": [
           "Google Maps"
         ],
@@ -9130,7 +9130,7 @@
     "/api/google-maps/aerial-view/render-video": {
       "post": {
         "operationId": "google-maps_aerial-view_render-video",
-        "summary": "Google Aerial View - Request rendering of a new aerial flyover video for an address",
+        "summary": "Google Aerial View - Request rendering of a new aerial flyover",
         "tags": [
           "Google Maps"
         ],
@@ -9590,7 +9590,7 @@
     "/api/serper/people-image-search": {
       "post": {
         "operationId": "serper_people-image-search",
-        "summary": "Serper - Google Images search tuned for people/headshots. For ambiguous people, resolve the profile slug/company/title first. LinkedIn photos may be non-public; if LinkedIn reports a default avatar or the first search fails, research the profile for alternate disambiguators and retry with public non-LinkedIn source terms.",
+        "summary": "Serper - Google Images search tuned for people/headshots",
         "tags": [
           "Serper"
         ],
@@ -10603,7 +10603,7 @@
     "/api/whitepages/property-search": {
       "post": {
         "operationId": "whitepages_property-search",
-        "summary": "Whitepages Property Search - Get property ownership and resident data",
+        "summary": "Whitepages Property Search - Get property ownership and",
         "tags": [
           "Whitepages"
         ],
@@ -12401,7 +12401,7 @@
     "/api/influencer/enrich-by-email": {
       "post": {
         "operationId": "influencer_enrich-by-email",
-        "summary": "Influencer Enrich by Email - Find social media profiles associated with an email address",
+        "summary": "Influencer Enrich by Email - Find social media profiles",
         "tags": [
           "Influencer"
         ],
@@ -12619,7 +12619,7 @@
     "/api/influencer/enrich-by-social": {
       "post": {
         "operationId": "influencer_enrich-by-social",
-        "summary": "Influencer Enrich by Social - Enrich social media profile with additional data including contact info",
+        "summary": "Influencer Enrich by Social - Enrich social media profile with",
         "tags": [
           "Influencer"
         ],
@@ -12922,7 +12922,7 @@
     "/api/minerva/resolve": {
       "post": {
         "operationId": "minerva_resolve",
-        "summary": "Minerva Resolve - Resolve person identity to a Minerva PID and LinkedIn URL. Supports fuzzy matching and reverse lookup by email or phone only.",
+        "summary": "Minerva Resolve - Resolve person identity to a Minerva PID and",
         "tags": [
           "Minerva"
         ],
@@ -13121,7 +13121,7 @@
     "/api/minerva/enrich": {
       "post": {
         "operationId": "minerva_enrich",
-        "summary": "Minerva Enrich - Enrich person records with demographics, work history, education, contact info, addresses, and financial signals. Supports lookup by Minerva PID, LinkedIn URL, or name/email/phone.",
+        "summary": "Minerva Enrich - Enrich person records with demographics, work",
         "tags": [
           "Minerva"
         ],
@@ -14006,7 +14006,7 @@
     "/api/minerva/validate-emails": {
       "post": {
         "operationId": "minerva_validate-emails",
-        "summary": "Minerva Validate Emails - Check if email addresses exist in the Minerva database and retrieve validation status and last seen timestamps.",
+        "summary": "Minerva Validate Emails - Check if email addresses exist in",
         "tags": [
           "Minerva"
         ],
@@ -14126,7 +14126,7 @@
     "/api/cloudflare/crawl": {
       "post": {
         "operationId": "cloudflare_crawl",
-        "summary": "Cloudflare Browser Rendering Crawl - Start a crawl job and return a token to poll for results. Respects robots.txt and supports pattern-based URL filtering.",
+        "summary": "Cloudflare Browser Rendering Crawl - Start a crawl job and",
         "tags": [
           "Cloudflare"
         ],
@@ -14270,7 +14270,7 @@
     "/api/cloudflare/jobs": {
       "get": {
         "operationId": "cloudflare_jobs",
-        "summary": "Poll Cloudflare crawl job status and retrieve results. Requires SIWX wallet auth — only the wallet that paid can poll.",
+        "summary": "Poll Cloudflare crawl job status and retrieve results",
         "tags": [
           "Cloudflare"
         ],

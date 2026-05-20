@@ -10,7 +10,7 @@
   "paths": {
     "/search": {
       "post": {
-        "summary": "Search the Web",
+        "summary": "Search the Web (search search post)",
         "security": [
           {
             "HTTPBearer": []
@@ -124,7 +124,7 @@
     },
     "/v1/agent": {
       "post": {
-        "summary": "Create Agent Response",
+        "summary": "Create Agent Response (v1 agent)",
         "security": [
           {
             "HTTPBearer": []
@@ -233,7 +233,7 @@
     },
     "/v1/sonar": {
       "post": {
-        "summary": "Create Chat Completion",
+        "summary": "Create Chat Completion (chat completions chat completions post)",
         "security": [
           {
             "HTTPBearer": []
@@ -418,7 +418,7 @@
     },
     "/v1/models": {
       "get": {
-        "summary": "List Models",
+        "summary": "List Models (get v1 models)",
         "security": [],
         "responses": {
           "200": {

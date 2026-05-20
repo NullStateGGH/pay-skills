@@ -17,7 +17,7 @@
   "paths": {
     "/extract": {
       "post": {
-        "summary": "Extract",
+        "summary": "Extract (extract extract post)",
         "operationId": "extract_extract_post",
         "requestBody": {
           "content": {
@@ -201,7 +201,7 @@
     },
     "/parse": {
       "post": {
-        "summary": "Parse",
+        "summary": "Parse (parse parse post)",
         "operationId": "parse_parse_post",
         "requestBody": {
           "content": {
