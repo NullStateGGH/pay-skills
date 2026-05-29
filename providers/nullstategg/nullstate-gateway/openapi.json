@@ -1,0 +1,50 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "NullState x402 Settlement Gateway",
+    "version": "4.0.0",
+    "description": "Open-source x402 settlement verification for AI agents on Solana"
+  },
+  "servers": [{"url": "https://34.41.139.70:8080"}],
+  "paths": {
+    "/api/settlement/verify": {
+      "post": {
+        "summary": "Verify a Solana USDC settlement",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "hash": {"type": "string", "description": "Solana transaction signature"},
+                  "asset": {"type": "string", "enum": ["USDC"]},
+                  "network": {"type": "string", "enum": ["Solana"]},
+                  "amount": {"type": "number", "description": "Expected USDC amount"}
+                },
+                "required": ["hash", "asset", "network", "amount"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {"description": "Verification result"},
+          "400": {"description": "Invalid request"},
+          "402": {"description": "Payment required (tier limit reached)"}
+        }
+      }
+    },
+    "/health": {
+      "get": {
+        "summary": "Gateway health status",
+        "responses": {"200": {"description": "OK"}}
+      }
+    },
+    "/.well-known/agent-card.json": {
+      "get": {
+        "summary": "A2A Agent Card for autonomous discovery",
+        "responses": {"200": {"description": "Agent Card JSON"}}
+      }
+    }
+  }
+}
