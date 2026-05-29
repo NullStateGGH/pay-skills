@@ -1,49 +1,388 @@
 {
   "openapi": "3.1.0",
   "info": {
-    "title": "NullState x402 Settlement Gateway",
-    "version": "4.0.0",
-    "description": "Open-source x402 settlement verification for AI agents on Solana"
+    "title": "NullState Gateway",
+    "version": "4.0.0"
   },
-  "servers": [{"url": "https://34.41.139.70:8080"}],
+  "servers": [
+    {
+      "url": "https://34.41.139.70:8080"
+    }
+  ],
   "paths": {
-    "/api/settlement/verify": {
+    "/api/v1/settlement/verify": {
       "post": {
-        "summary": "Verify a Solana USDC settlement",
-        "requestBody": {
-          "required": true,
-          "content": {
-            "application/json": {
-              "schema": {
-                "type": "object",
-                "properties": {
-                  "hash": {"type": "string", "description": "Solana transaction signature"},
-                  "asset": {"type": "string", "enum": ["USDC"]},
-                  "network": {"type": "string", "enum": ["Solana"]},
-                  "amount": {"type": "number", "description": "Expected USDC amount"}
-                },
-                "required": ["hash", "asset", "network", "amount"]
-              }
-            }
+        "summary": "Settlement Verify",
+        "description": "Verify a Solana USDC settlement transaction. Submit tx hash, get verified receipt with on-chain proof.",
+        "parameters": [
+          {
+            "name": "X-KYA-Token",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Agent auth token"
           }
-        },
+        ],
         "responses": {
-          "200": {"description": "Verification result"},
-          "400": {"description": "Invalid request"},
-          "402": {"description": "Payment required (tier limit reached)"}
+          "200": {
+            "description": "Success"
+          },
+          "402": {
+            "description": "Payment required"
+          }
         }
       }
     },
-    "/health": {
+    "/api/v1/credits/balance": {
       "get": {
-        "summary": "Gateway health status",
-        "responses": {"200": {"description": "OK"}}
+        "summary": "Credit Balance",
+        "description": "Check prepaid USDC credit balance for any agent wallet.",
+        "parameters": [
+          {
+            "name": "X-KYA-Token",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Agent auth token"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "402": {
+            "description": "Payment required"
+          }
+        }
       }
     },
-    "/.well-known/agent-card.json": {
+    "/api/v1/settlement/receipt": {
+      "post": {
+        "summary": "Settlement Receipt",
+        "description": "Generate a signed settlement receipt for audit trails and dispute resolution.",
+        "parameters": [
+          {
+            "name": "X-KYA-Token",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Agent auth token"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "402": {
+            "description": "Payment required"
+          }
+        }
+      }
+    },
+    "/api/v1/agent/verify": {
+      "post": {
+        "summary": "Agent Identity Verify",
+        "description": "Verify agent identity via KYA challenge-response protocol.",
+        "parameters": [
+          {
+            "name": "X-KYA-Token",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Agent auth token"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "402": {
+            "description": "Payment required"
+          }
+        }
+      }
+    },
+    "/api/v1/wallet/balance": {
       "get": {
-        "summary": "A2A Agent Card for autonomous discovery",
-        "responses": {"200": {"description": "Agent Card JSON"}}
+        "summary": "Wallet Balance",
+        "description": "Check on-chain USDC/SOL balance of any Solana wallet address.",
+        "parameters": [
+          {
+            "name": "X-KYA-Token",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Agent auth token"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "402": {
+            "description": "Payment required"
+          }
+        }
+      }
+    },
+    "/api/v1/transaction/history": {
+      "get": {
+        "summary": "Transaction History",
+        "description": "Get settlement transaction history for any agent.",
+        "parameters": [
+          {
+            "name": "X-KYA-Token",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Agent auth token"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "402": {
+            "description": "Payment required"
+          }
+        }
+      }
+    },
+    "/api/v1/compliance/check": {
+      "post": {
+        "summary": "Compliance Check",
+        "description": "Validate an x402 settlement against compliance and AML rules.",
+        "parameters": [
+          {
+            "name": "X-KYA-Token",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Agent auth token"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "402": {
+            "description": "Payment required"
+          }
+        }
+      }
+    },
+    "/api/v1/proof/generate": {
+      "post": {
+        "summary": "Settlement Proof",
+        "description": "Generate cryptographic proof of settlement for dispute resolution.",
+        "parameters": [
+          {
+            "name": "X-KYA-Token",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Agent auth token"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "402": {
+            "description": "Payment required"
+          }
+        }
+      }
+    },
+    "/api/v1/price/usdc": {
+      "get": {
+        "summary": "USDC Price",
+        "description": "Get current USDC/SOL price feed and market data.",
+        "parameters": [
+          {
+            "name": "X-KYA-Token",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Agent auth token"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "402": {
+            "description": "Payment required"
+          }
+        }
+      }
+    },
+    "/api/v1/ledger/summary": {
+      "get": {
+        "summary": "Ledger Summary",
+        "description": "Get a summary of all ledger activity and balances.",
+        "parameters": [
+          {
+            "name": "X-KYA-Token",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Agent auth token"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "402": {
+            "description": "Payment required"
+          }
+        }
+      }
+    },
+    "/api/v1/agent/card": {
+      "get": {
+        "summary": "Agent Card",
+        "description": "Generate an A2A Agent Card for your agent with discovery metadata.",
+        "parameters": [
+          {
+            "name": "X-KYA-Token",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Agent auth token"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "402": {
+            "description": "Payment required"
+          }
+        }
+      }
+    },
+    "/api/v1/webhook/verify": {
+      "post": {
+        "summary": "Webhook Verify",
+        "description": "Verify webhook payload signatures.",
+        "parameters": [
+          {
+            "name": "X-KYA-Token",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Agent auth token"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "402": {
+            "description": "Payment required"
+          }
+        }
+      }
+    },
+    "/api/v1/network/status": {
+      "get": {
+        "summary": "Network Status",
+        "description": "Check Solana network health and latest confirmed slot.",
+        "parameters": [
+          {
+            "name": "X-KYA-Token",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Agent auth token"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "402": {
+            "description": "Payment required"
+          }
+        }
+      }
+    },
+    "/api/v1/agents/discover": {
+      "get": {
+        "summary": "Agent Discovery",
+        "description": "Discover other AI agents via the ecosystem signals database.",
+        "parameters": [
+          {
+            "name": "X-KYA-Token",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Agent auth token"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "402": {
+            "description": "Payment required"
+          }
+        }
+      }
+    },
+    "/api/v1/billing/estimate": {
+      "post": {
+        "summary": "Billing Estimate",
+        "description": "Estimate billing costs for a given usage pattern.",
+        "parameters": [
+          {
+            "name": "X-KYA-Token",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Agent auth token"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "402": {
+            "description": "Payment required"
+          }
+        }
       }
     }
   }
