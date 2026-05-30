@@ -1,0 +1,46 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "NullState LLM Inference API",
+    "description": "Pay-per-call LLM text generation via x402 protocol on Solana",
+    "version": "v1"
+  },
+  "servers": [
+    {
+      "url": "https://greensol.me/nullstate"
+    }
+  ],
+  "paths": {
+    "/api/v1/inference": {
+      "post": {
+        "summary": "Generate text via LLM",
+        "description": "Pay $0.005 USDC per request. Returns 402 Payment Required before payment, then returns generated text after valid x402 payment.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["prompt"],
+                "properties": {
+                  "prompt": { "type": "string" },
+                  "max_tokens": { "type": "integer", "default": 100, "maximum": 2048 },
+                  "temperature": { "type": "number", "default": 0.7 }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": { "description": "Generated text" },
+          "402": { "description": "Payment Required — x402 challenge" }
+        },
+        "x-pricing": {
+          "amount": "0.005",
+          "currency": "USDC",
+          "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp"
+        }
+      }
+    }
+  }
+}
